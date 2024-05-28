@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="csrf-token" content="u0sdvb6vs2Nyh7T8qjOavcYW7KHQMgGXIrv0cCrh">
+<title>ares</title>
+
+<script src="https://ares-emu.net/js/app.js" defer type="f11c8fea2165d50205d7f689-text/javascript"></script>
+
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+<link href="https://ares-emu.net/css/app.css" rel="stylesheet">
+<style>[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+<div class="container-fluid">
+<a class="navbar-brand" href="https://ares-emu.net"><img src="/img/logo.png" height="42"></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item"><a class="nav-link active" href="https://ares-emu.net">Home</a></li>
+<li class="nav-item"><a class="nav-link " href="https://ares-emu.net/download">Download</a></li>
+<li class="nav-item"><a class="nav-link " href="https://ares-emu.net/news">News</a></li>
+<li class="nav-item"><a class="nav-link " href="https://ares-emu.net/compatibility">Compatibility</a></li>
+<li class="nav-item"><a class="nav-link" href="https://discord.com/invite/gz2quhk2kv">Discord</a></li>
+<li class="nav-item"><a class="nav-link" href="https://github.com/ares-emulator/ares">GitHub</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="bg-dark text-light">
+<div class="container col-xxl-8 px-4 py-5">
+<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+<div class="col-10 col-sm-8 col-lg-6">
+<div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item  active">
+<img src="/img/gallery/famicom_gimmick.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/famicom-disk-system_zelda.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/super-famicom_bahamut-lagoon.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/super-game-boy_devichil-black-book.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/nintendo-64_zelda-ocarina-of-time.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/sg-1000_ninja-princess.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/master-system_wonder-boy-iii.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/mega-drive_sonic-3.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/mega-32x_chaotix.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/mega-cd_lunar-silver-star.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/playstation_wild-arms.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/pc-engine_bomberman-94.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/pc-engine-cd_rondo-of-blood.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/supergrafx_daimakaimura.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/neo-geo-aes_metal-slug.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/msx_parodius.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/msx2_akumajou-dracula.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/colecovision_frogger.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/game-boy_links-awakening.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/game-boy-color_devichil-white-book.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/game-boy-advance_golden-sun.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/game-gear_sonic.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/wonderswan_langrisser.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/wonderswan-color_riviera.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/pocket-challenge-v2_sck1.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/neo-geo-pocket_samurai-shodown.png" class="d-block w-100">
+</div>
+<div class="carousel-item  ">
+<img src="/img/gallery/neo-geo-pocket-color_last-blade.png" class="d-block w-100">
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#headerCarousel" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<div class="col-lg-6">
+<h1 class="display-5 fw-bold lh-1 mb-3">Multi System Emulator</h1>
+<p class="lead">ares is a cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.</p>
+<p class="pt-2 border-top">ares v138 (2024-05-02 15:20:00)</p>
+<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+<a href="https://ares-emu.net/download" class="btn btn-primary btn-lg px-4 me-md-2">Download</a>
+<a href="https://ares-emu.net/about" class="btn btn-secondary btn-lg px-4 me-md-2">Learn More</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="page-section bg-light py-5">
+<div wire:id="ndgjTgTRlaY3oH0zM5Ue" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;ndgjTgTRlaY3oH0zM5Ue&quot;,&quot;name&quot;:&quot;supported-system-list&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;ee8e0f64&quot;,&quot;data&quot;:[],&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;8cd1ebf35424402c665ed845be6078244cb93a795e3bade147ae4a12d4922724&quot;}}" class="container">
+<h2 class="pb-2 border-bottom">Supported Systems</h2>
+<p class="pb-3">
+Systems marked as 'Experimental' are supported, but are not yet recommended for everyday use
+</p>
+<div class="row row g-4 pb-3 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6">
+<div class="col">
+<a href="https://ares-emu.net/compatibility/arcade-arcade">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/2BBlIigXPTXXygOOSP1xOlWYhjQ5zdrH89c5gqTa.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/arcade-arcade">Arcade</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/atari-atari-2600">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/aNyHHcJ7flfCppv8BhLHsQScQj7eHYfpXZahYHhz.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/atari-atari-2600">Atari 2600</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center badge bg-warning text-dark">Experimental</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/bandai-wonderswan">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/3WJpUSVRl7JlvNJSRijoc5lMKTEWbZsktHn42yyp.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/bandai-wonderswan">WonderSwan</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/bandai-wonderswan-color">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/2e5RqCBN2ZnscHWT9wyp5L831YuYUAT23y81dO2Y.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/bandai-wonderswan-color">WonderSwan Color</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/benesse-pocket-challenge-v2">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/OcVnN45BXLjDwPlkHne7601Li3JoLaN7LmL9MoS3.png') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/benesse-pocket-challenge-v2">Pocket Challenge V2</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/coleco-colecovision">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/uRlGP9SZsSieNN3cloJuAvIlraq2MtrJARStkruk.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/coleco-colecovision">ColecoVision</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/microsoft-msx">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/7bJ6lT2eeMTstdfX1j2FmRt85tC959cHQ3GLyUir.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/microsoft-msx">MSX</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center badge bg-warning text-dark">Experimental</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/microsoft-msx2">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/VcBcDvgJrlDi4Um58mJD7LUyPb9d7qWpbML8iSXp.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/microsoft-msx2">MSX2</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center badge bg-warning text-dark">Experimental</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nec-pc-engine-turbografx">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/YB2qDKsMBlGyc0MSEumUvXOs4UEPgIzrdtlhXf84.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nec-pc-engine-turbografx">PC-Engine / TurboGrafx</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nec-pc-engine-cd-turbografx-cd">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/i9lVlci5JdjyHSuRha2LXFd8aoZCqpYz9uiVbYit.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nec-pc-engine-cd-turbografx-cd">PC-Engine CD / TurboGrafx CD</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center badge bg-warning text-dark">Experimental</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nec-pc-engine-supergrafx">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/ZSaT8C0nSLQb5zvqcOMLkiTe6K8XFo7Y6Tz1Pmev.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nec-pc-engine-supergrafx">PC-Engine SuperGrafx</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nichibutsu-my-vision">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/PHRFYkZSTxuM0g11gPL7RuaC1p477mtL2n1HTdez.png') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nichibutsu-my-vision">My Vision</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nintendo-nes-famicom">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/qfmigc7eB8QvE9AJg39axS7WyTQgler8NRF63W4t.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nintendo-nes-famicom">NES / Famicom</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nintendo-famicom-disk-system">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/PEBYv9UmrYwtKioiMkUVMun27trMpEIAU4FT0enu.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nintendo-famicom-disk-system">Famicom Disk System</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nintendo-game-boy">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/0TuHcqCSjyJwV9BiqaZy8PjLZ4P35YFOkvm3n9Xl.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nintendo-game-boy">Game Boy</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nintendo-snes-super-famicom">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/q6D4d3KUEqAc7SdOl9oFoicRrB2GO6RcXxsdeuGI.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nintendo-snes-super-famicom">SNES / Super Famicom</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nintendo-satellaview">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/ZIkEINyn0XUY9oeXvnq9IHAUH65pD3sclpMy3Shp.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nintendo-satellaview">Satellaview</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nintendo-nintendo-64">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/pncIcD8TxhzwM3swg9FjZodc3VSqQ3z8VsPZiE1O.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nintendo-nintendo-64">Nintendo 64</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nintendo-sufami-turbo">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/RHfykLstOtQe9ngnEoKOXyqVH7e6NL1T8zBZ4nOd.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nintendo-sufami-turbo">SuFami Turbo</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nintendo-game-boy-color">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/jWds9x938I6sS7PebinUykdcurvd5KWStfqJYrTz.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nintendo-game-boy-color">Game Boy Color</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nintendo-nintendo-64dd">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/SG9pkwFdg7XyJlqwluQP5HevXuu8f1YDcdxzPBb5.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nintendo-nintendo-64dd">Nintendo 64DD</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/nintendo-game-boy-advance">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/i4kBEG9vqaXl8uSbokCtpwAvpZ0pOoHt2kml8419.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/nintendo-game-boy-advance">Game Boy Advance</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/sega-sg-1000">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/oMlA4LjkHegATZwEz8T6VLxDwy3prExHnPlSkILi.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/sega-sg-1000">SG-1000</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/sega-master-system-mark-iii">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/DnwuXjNvX0Mssl53wk22niUjXWf74V78CNTaWhpa.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/sega-master-system-mark-iii">Master System / Mark III</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/sega-mega-drive-genesis">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/9B8syhwLEcYf1a5U7jKLxI6jCjcdnh6cClIIv06s.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/sega-mega-drive-genesis">Mega Drive / Genesis</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/sega-game-gear">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/m2hagP0jTSRNPcSpT7Zsev2vqFGCSP2vIMjPsDjh.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/sega-game-gear">Game Gear</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/sega-mega-cd">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/DKLb7Nm2TIvkrsJ1M5Yc2PaecXtlGfaDlRTz1TIB.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/sega-mega-cd">Mega CD</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/sega-32x">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/YzuRZmL4yLxrbnZB2CoRKtaxAKLJt96RIpK6SEDP.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/sega-32x">32X</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/sinclair-zx-spectrum">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/eIfF44ij2jQQOyPnpsoRAQzcxXHtPfErnmEDK7iD.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/sinclair-zx-spectrum">ZX Spectrum</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center badge bg-warning text-dark">Experimental</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/snk-neo-geo-aesmvs">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/HE64yVHqcd0UkCWHEqCBw1KegEyv60BDu080T9YR.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/snk-neo-geo-aesmvs">Neo Geo (AES/MVS)</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center badge bg-warning text-dark">Experimental</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/snk-neo-geo-pocket">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/ZXtYUw2MGOBsStu6vhxiM8eSKMQQnqK1O2QE6pg6.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/snk-neo-geo-pocket">Neo Geo Pocket</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/snk-neo-geo-pocket-color">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/rNLphTkU08rm40BpGPVWdISedATHL7pNoNN2BkIB.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/snk-neo-geo-pocket-color">Neo Geo Pocket Color</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100">&nbsp;</p>
+</div>
+</div>
+<div class="col">
+<a href="https://ares-emu.net/compatibility/sony-playstation">
+<div class="d-flex flex-wrap align-items-center" style="height: 100px; background: url('/storage/p8XkQ2te9gmTVRxwl29jcme3GNNDWytkk4Hu7ydC.svg') no-repeat center; background-size: contain;">
+</div>
+</a>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center">
+<a href="https://ares-emu.net/compatibility/sony-playstation">PlayStation</a>
+</p>
+</div>
+<div class="d-flex fle-wrap align-items-center">
+<p class="w-100 text-center badge bg-warning text-dark">Experimental</p>
+</div>
+</div>
+</div>
+</div>
+ </section>
+<section class="py-5 bg-dark text-light">
+<div class="container mx-auto">
+<h2 class="pb-2 border-bottom">Features</h2>
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+<div class="col">
+<h2>Native multi-platform UI</h2>
+<p>
+Using the 'hiro' framework, ares looks and behaves like a native application on all
+supported platforms, using WinAPI (Windows), Cocoa (macOS), GTK2 or GTK3 (posix)
+</p>
+</div>
+<div class="col">
+<h2>Dynamic Rate Control</h2>
+<p>
+You can now synchronize both audio and video output at the same time, for a smooth
+experience for those systems that don't match the host frame-rate.
+</p>
+</div>
+<div class="col">
+<h2>Save States</h2>
+<p>
+Resume where you left off, even if the game you're playing does not natively support saving.
+</p>
+</div>
+<div class="col">
+<h2>Run-ahead</h2>
+<p>
+Reduce input lag and response time by accounting for internal processing delays in the
+original games, it's now possible to achieve lower latency than is possible on real-hardware
+using a CRT!
+</p>
+</div>
+<div class="col">
+<h2>Rewind and fast-forward</h2>
+<p>
+Speed up and rewind gameplay as you wish; breeze past long cutscenes or recover from
+your mistakes.
+</p>
+</div>
+<div class="col">
+<h2>Pixel Shaders</h2>
+<p>
+Apply shader-based filters to enhance your experience; simulate the look of a CRT or
+smooth out the display, ares ships with a collection of shaders from libretro's
+<a href="https://github.com/libretro/slang-shaders">slang-shaders</a>.
+</p>
+</div>
+<div class="col">
+<h2>Color Correction</h2>
+<p>
+Optionally emulate the display characteristics of the originals systems for an authentic
+experience. Nostalgic for the washed out colours of the original GBA screen, or playing a
+game that relies on LCD ghosting? We've got you covered.
+</p>
+</div>
+<div class="col">
+<h2>Input Multi-Mapping</h2>
+<p>
+With Virtual Game-Pads, you only need to configure controls once and it will be
+automatically adapted to suit each system you emulate.
+</p>
+</div>
+<div class="col">
+<h2>Debugger</h2>
+<p>
+Simple debug features such as trace logging to aid development of original software
+for supported systems
+</p>
+</div>
+</div>
+</div>
+</section>
+<script src="/livewire/livewire.js?id=90730a3b0e7144480175" data-turbo-eval="false" data-turbolinks-eval="false" type="f11c8fea2165d50205d7f689-text/javascript"></script><script data-turbo-eval="false" data-turbolinks-eval="false" type="f11c8fea2165d50205d7f689-text/javascript">window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'u0sdvb6vs2Nyh7T8qjOavcYW7KHQMgGXIrv0cCrh';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="f11c8fea2165d50205d7f689-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vef91dfe02fce4ee0ad053f6de4f175db1715022073587" integrity="sha512-sDIX0kl85v1Cl5tu4WGLZCpH/dV9OHbA4YlKCuCiMmOQIk4buzoYDZSFj+TvC71mOBLh8CDC/REgE0GX0xcbjA==" data-cf-beacon='{"rayId":"88aad2c35e4a4bd9","r":1,"version":"2024.4.1","token":"feffa1b0cde644a09c2ca53542a69f21"}' crossorigin="anonymous"></script>
+</body>
+</html>
