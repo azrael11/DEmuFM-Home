@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DEmuFM - Arcade</title>
+<link href="https://azrael11.github.io/DEmuFM-Home/css/app.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  .fade-line {
+    width: 80%;
+    height: 1px;
+    margin: 50px auto;
+    background: linear-gradient(to right, rgba(128, 128, 128, 0) 0%, rgba(128, 128, 128, 1) 50%, rgba(128, 128, 128, 0) 100%);
+  }
+</style>
+</head>
+<body>
+<!-- Existing Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://azrael11.github.io/DEmuFM-Home/"><img src="https://azrael11.github.io/DEmuFM-Home/logo/png/logo-no-background.png" height="42"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="https://azrael11.github.io/DEmuFM-Home/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://azrael11.github.io/DEmuFM-Home/download">Download</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://azrael11.github.io/DEmuFM-Home/news">News</a></li>
+        <li class="nav-item"><a class="nav-link active" href="https://azrael11.github.io/DEmuFM-Home/compatibility">Compatibility</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://github.com/azrael11/DEmuFM-Home">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="bg-light text-dark py-5">
+  <div class="container">
+    <h2 class="pb-3 border-bottom">Arcade System Overview</h2>
+    <div class="p-4 mb-4 bg-white rounded shadow-sm">
+      <h3 class="mb-3">Arcade Systems Emulation</h3>
+      <p>DEmuFM provides support for a wide variety of arcade systems, allowing you to relive the golden era of arcade gaming from the comfort of your own home. With support for classic and modern titles alike, our emulator strives for high compatibility, accuracy, and ease of use. Experience the thrill of arcade games like never before, complete with save states, customizable controls, and a multitude of graphical options.</p>
+    </div>
+    <h3 class="pb-3 border-bottom">Arcade System Compatibility Table</h3>
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+          <tr>
+            <th>Version</th>
+            <th>Version Date</th>
+            <th>Games Supported</th>
+            <th>Games Playable</th>
+            <th>Games Almost Working</th>
+            <th>Games Not Working</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>0.0.2</td>
+            <td>2024-10-12</td>
+            <td>500</td>
+            <td>450</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>0.0.1</td>
+            <td>2024-08-01</td>
+            <td>400</td>
+            <td>350</td>
+            <td>25</td>
+            <td>25</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<div class="fade-line"></div>
+
+<footer class="bg-dark text-light text-center py-3">
+  <div class="container">
+    <p>&copy; <span id="currentYear"></span> DEmuFM. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
