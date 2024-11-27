@@ -42,3 +42,8 @@
   object-fit: cover; /* Διατηρεί την αναλογία και γεμίζει το πλαίσιο */
   object-position: center; /* Κεντράρει την εικόνα */
 }
+
+.card-date {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
