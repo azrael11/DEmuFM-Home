@@ -28,3 +28,17 @@
     margin: 50px auto;
     background: linear-gradient(to right, rgba(128, 128, 128, 0) 0%, rgba(128, 128, 128, 1) 50%, rgba(128, 128, 128, 0) 100%);
   }
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Καθορίζει το ύψος του carousel */
+  overflow: hidden;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Διατηρεί την αναλογία και γεμίζει το πλαίσιο */
+  object-position: center; /* Κεντράρει την εικόνα */
+}
