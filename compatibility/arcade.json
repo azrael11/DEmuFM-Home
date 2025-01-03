@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Pac-Man",
+    "image": "pacman.jpg",
+    "added": "2023-10-01",
+    "status": "Working",
+    "hiscore": "Yes"
+  },
+  {
+    "name": "Galaga",
+    "image": "galaga.jpg",
+    "added": "2023-08-15",
+    "status": "Working",
+    "hiscore": "No"
+  }
+]
