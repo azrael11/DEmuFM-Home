@@ -80,9 +80,9 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item"><a class="nav-link" href="https://azrael11.github.io/DEmuFM-Home/">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="https://azrael11.github.io/DEmuFM-Home/download">Download</a></li>
-          <li class="nav-item"><a class="nav-link active" href="https://azrael11.github.io/DEmuFM-Home/news">News</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://azrael11.github.io/DEmuFM-Home/compatibility">Compatibility</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://github.com/azrael11/DEmuFM-Home">GitHub</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://azrael11.github.io/DEmuFM-Home/news">News</a></li>
+          <li class="nav-item"><a class="nav-link active" href="https://azrael11.github.io/DEmuFM-Home/compatibility">Compatibility</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://github.com/azrael11/DEmuFM">GitHub</a></li>
         </ul>
       </div>
     </div>
@@ -104,29 +104,38 @@
 
   <script>
     function loadGames(jsonFile) {
-      fetch(jsonFile)
-        .then(response => response.json())
-        .then(games => {
-          const content = document.querySelector(".content");
-          content.innerHTML = `<h2>Supported Games</h2>`;
-          games.forEach(game => {
-            content.innerHTML += `
-              <div class="game">
-                <img src="${game.image}" alt="${game.name}">
-                <div class="game-info">
-                  <h4>${game.name}</h4>
-                  <p><strong>Added:</strong> ${game.added}</p>
-                  <p><strong>Status:</strong> ${game.status}</p>
-                  <p><strong>Hi-Score Support:</strong> ${game.hiscore}</p>
-                </div>
-              </div>
-            `;
-          });
-        })
-        .catch(error => {
-          console.error("Error loading JSON file:", error);
-        });
-    }
+  const content = document.querySelector(".content");
+  
+  // Καθαρίζει το περιεχόμενο πριν φορτωθούν νέα δεδομένα
+  content.innerHTML = ""; 
+
+  fetch(jsonFile)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(games => {
+      content.innerHTML = `<h2>Supported Games</h2>`;
+      games.forEach(game => {
+        content.innerHTML += `
+          <div class="game">
+            <img src="${game.image}" alt="${game.name}">
+            <div class="game-info">
+              <h4>${game.name}</h4>
+              <p><strong>Added:</strong> ${game.added}</p>
+              <p><strong>Status:</strong> ${game.status}</p>
+              <p><strong>Hi-Score Support:</strong> ${game.hiscore}</p>
+            </div>
+          </div>
+        `;
+      });
+    })
+    .catch(error => {
+      content.innerHTML = `<h2>Error Loading Games</h2><p>${error.message}</p>`;
+    });
+}
   </script>
   
 <div class="fade-line"></div>
