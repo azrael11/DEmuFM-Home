@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://azrael11.github.io/DEmuFM-Home/css/app.css" rel="stylesheet">
+  <title>Emulator Games</title>
+ <script>
+    const emulators = {
+      "Arcade": [
+        { name: "Pac-Man", image: "pacman.jpg", added: "2023-10-01", status: "Working", hiscore: "Yes" },
+        { name: "Galaga", image: "galaga.jpg", added: "2023-08-15", status: "Working", hiscore: "No" }
+      ],
+      "NES": [
+        { name: "Super Mario Bros.", image: "mario.jpg", added: "2023-07-10", status: "Working", hiscore: "Yes" },
+        { name: "Zelda", image: "zelda.jpg", added: "2023-06-20", status: "Working", hiscore: "No" }
+      ],
+      "Gameboy": [
+        { name: "Tetris", image: "tetris.jpg", added: "2023-05-01", status: "Working", hiscore: "Yes" },
+        { name: "Pokemon", image: "pokemon.jpg", added: "2023-04-18", status: "Partially Working", hiscore: "No" }
+      ]
+    };
+
+    function loadGames(emulatorName) {
+      const games = emulators[emulatorName];
+      const content = document.querySelector(".content");
+      content.innerHTML = `<h2>${emulatorName} Supported Games</h2>`;
+      games.forEach(game => {
+        content.innerHTML += `
+          <div class="game">
+            <img src="${game.image}" alt="${game.name}">
+            <div class="game-info">
+              <h4>${game.name}</h4>
+              <p><strong>Added:</strong> ${game.added}</p>
+              <p><strong>Status:</strong> ${game.status}</p>
+              <p><strong>Hi-Score Support:</strong> ${game.hiscore}</p>
+            </div>
+          </div>
+        `;
+      });
+    }
+  </script>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Emulators</h2>
+    <div class="emulator" onclick="loadGames('Arcade')">Arcade</div>
+    <div class="emulator" onclick="loadGames('NES')">NES</div>
+    <div class="emulator" onclick="loadGames('Gameboy')">Gameboy</div>
+  </div>
+  <div class="content">
+    <h2>Click on an emulator to see the supported games</h2>
+  </div>
+</body>
+</html>
