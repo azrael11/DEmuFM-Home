@@ -63,20 +63,18 @@
     .game-info p {
       margin: 5px 0;
       font-size: 14px;
-    }
-	  
-  .game:nth-child(odd) {
-    background-color: #f9f9f9; /* Ανοιχτό γκρι για περιττές γραμμές */
-  }
-  .game:nth-child(even) {
-    background-color: #ffffff; /* Λευκό για ζυγές γραμμές */
-  }
-
-  
-  .game:hover {
-    background-color: #e0f7fa; /* Ανοιχτό μπλε όταν περνάει το ποντίκι */
-    transition: background-color 0.3s ease; /* Ομαλή μετάβαση */
-  }
+    }	  
+	.game:nth-child(odd) {
+		background-color: #e0e0e0;
+	}
+	.game:nth-child(even) {
+		background-color: #ffffff;
+	}  
+	.game:hover {
+		background-color: #d0e7f7; /* Ανοιχτό γκρι-μπλε όταν περνάει το ποντίκι */
+		cursor: pointer; /* Χέρι αντί για βέλος */
+		transition: background-color 0.3s ease; /* Ομαλή μετάβαση */
+	}
   </style>
 </head>
 <body>
