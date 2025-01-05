@@ -64,6 +64,19 @@
       margin: 5px 0;
       font-size: 14px;
     }
+	  
+  .game:nth-child(odd) {
+    background-color: #f9f9f9; /* Ανοιχτό γκρι για περιττές γραμμές */
+  }
+  .game:nth-child(even) {
+    background-color: #ffffff; /* Λευκό για ζυγές γραμμές */
+  }
+
+  
+  .game:hover {
+    background-color: #e0f7fa; /* Ανοιχτό μπλε όταν περνάει το ποντίκι */
+    transition: background-color 0.3s ease; /* Ομαλή μετάβαση */
+  }
   </style>
 </head>
 <body>
@@ -111,7 +124,7 @@ function loadGames(jsonFile) {
 
   // Προσθέτει loading indicator
   const loadingIndicator = document.createElement("p");
-  loadingIndicator.textContent = "Loading games, please wait...";
+  loadingIndicator.textContent = "Loading supported list, please wait...";
   content.appendChild(loadingIndicator);
 
   fetch(jsonFile)
