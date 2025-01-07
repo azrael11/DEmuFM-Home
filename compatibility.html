@@ -116,7 +116,7 @@
   <script>
 function loadGames(jsonFile) {
   const content = document.querySelector(".content");
-  
+
   content.innerHTML = "";
 
   const loadingIndicator = document.createElement("p");
@@ -137,15 +137,23 @@ function loadGames(jsonFile) {
         // Generate the URL for the game
         const gameUrl = `https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/${game.rom}.html`;
 
-        // Create the link element
-        const gameLink = document.createElement("a");
-        gameLink.href = gameUrl;
-        gameLink.classList.add("game-link"); // Optional CSS class for styling
-        gameLink.target = "_self"; // Open in the same tab
-
         // Create the game container
         const gameDiv = document.createElement("div");
         gameDiv.classList.add("game");
+
+        // Set the onclick event to navigate to the generated URL
+        gameDiv.onclick = () => {
+          window.location.href = gameUrl;
+        };
+
+        // Add onmouseover event for styling or preview (optional)
+        gameDiv.onmouseover = () => {
+          gameDiv.style.backgroundColor = "#e0f7fa"; // Example hover effect
+        };
+
+        gameDiv.onmouseout = () => {
+          gameDiv.style.backgroundColor = ""; // Reset background
+        };
 
         // Populate the content
         gameDiv.innerHTML = `
@@ -159,19 +167,14 @@ function loadGames(jsonFile) {
           </div>
         `;
 
-        // Append the gameDiv to the link
-        gameLink.appendChild(gameDiv);
-
-        // Append the link to the content
-        content.appendChild(gameLink);
+        // Append the game container to the content
+        content.appendChild(gameDiv);
       });
     })
     .catch(error => {      
       content.innerHTML = `<h2>Error Loading Games</h2><p>${error.message}</p>`;
     });
 }
-
-
   </script>
   
 <div class="fade-line"></div>
