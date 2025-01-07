@@ -96,3 +96,7 @@ table_header {
   margin: 0 auto;
   background-color: #940101;
 }
+ 
+.img_fit {
+  object-fit: contain;
+}
