@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+}
+ 
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+ 
+th, td {
+  padding: 8px;
+}
+ 
+th {
+  width: 33%;
+}
+ 
+thead {
+  background-color: #333;
+  color: white;
+}
+ 
+.table_properties tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+ 
+.table_properties tbody tr:nth-child(even) td {
+  background-color: #B2BEB5;
+}
+ 
+.table_properties tbody td:nth-child(1) {
+  background-color: #36c;
+  color: #fff;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ 
+ 
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border:2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+ 
+table_header {
+  margin-top: 30px;
+}
+ 
+.table_properties {
+  width: 50%;
+}
+ 
+.table_properties td:nth-child(1) {
+  width: 25%;
+}
+ 
+.copyright {
+  text-align: right;
+}
+ 
+.state_icon_green {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #43A22B;
+}
+ 
+.state_icon_light_blue {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #5C93ED;
+}
+ 
+.state_icon_yellow {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #F2D624;
+}
+ 
+.state_icon_red {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #940101;
+}
