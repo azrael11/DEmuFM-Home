@@ -16,7 +16,7 @@
     .main-container {
       display: flex;
       margin-top: 56px; /* Space for the fixed navbar */
-      height: calc(90vh - 56px); /* Full height minus navbar height */
+      height: calc(96vh - 56px); /* Full height minus navbar height */
       overflow: hidden;
     }
     .sidebar {
@@ -116,11 +116,9 @@
   <script>
 function loadGames(jsonFile) {
   const content = document.querySelector(".content");
-
-  // Καθαρίζει το περιεχόμενο πριν φορτωθούν νέα δεδομένα
+  
   content.innerHTML = "";
 
-  // Προσθέτει loading indicator
   const loadingIndicator = document.createElement("p");
   loadingIndicator.textContent = "Loading supported list, please wait...";
   content.appendChild(loadingIndicator);
@@ -133,30 +131,21 @@ function loadGames(jsonFile) {
       return response.json();
     })
     .then(games => {
-      // Αφαιρεί τον loading indicator όταν τελειώσει η φόρτωση
       content.innerHTML = `<h2>Supported Games (${games.length})</h2>`;
 
       games.forEach(game => {
         // Generate the URL for the game
         const gameUrl = `https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/${game.rom}.html`;
 
+        // Create the link element
+        const gameLink = document.createElement("a");
+        gameLink.href = gameUrl;
+        gameLink.classList.add("game-link"); // Optional CSS class for styling
+        gameLink.target = "_self"; // Open in the same tab
+
         // Create the game container
         const gameDiv = document.createElement("div");
         gameDiv.classList.add("game");
-
-        // Set the onclick event to navigate to the generated URL
-        gameDiv.onclick = () => {
-          window.location.href = gameUrl;
-        };
-
-        // Add onmouseover event for styling or preview (optional)
-        gameDiv.onmouseover = () => {
-          gameDiv.style.backgroundColor = "#e0f7fa"; // Example hover effect
-        };
-
-        gameDiv.onmouseout = () => {
-          gameDiv.style.backgroundColor = ""; // Reset background
-        };
 
         // Populate the content
         gameDiv.innerHTML = `
@@ -170,15 +159,18 @@ function loadGames(jsonFile) {
           </div>
         `;
 
-        // Append the game container to the content
-        content.appendChild(gameDiv);
+        // Append the gameDiv to the link
+        gameLink.appendChild(gameDiv);
+
+        // Append the link to the content
+        content.appendChild(gameLink);
       });
     })
-    .catch(error => {
-      // Σε περίπτωση σφάλματος, αφαιρεί το loading indicator και δείχνει μήνυμα
+    .catch(error => {      
       content.innerHTML = `<h2>Error Loading Games</h2><p>${error.message}</p>`;
     });
 }
+
 
   </script>
   
