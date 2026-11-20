@@ -1,51 +1,70 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Deploy DEmuFM Next static website
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches: [main]
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Pages
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
-      - name: Upload artifact
+      - name: Prepare DEmuFM Next site (no legacy HTML pages)
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f deployment/DEmuFM-Next-Public-0.0.6.zip || { echo "::error::Upload deployment/DEmuFM-Next-Public-0.0.6.zip before merging"; exit 1; }
+          mkdir -p _publish
+          unzip -oq deployment/DEmuFM-Next-Public-0.0.6.zip -d _publish
+          test -f _publish/index.html
+          test -f _publish/assets/app.js
+          test -f _publish/data/arcade.json
+          python3 - <<'PY'
+          import json
+          with open('_publish/data/arcade.json', encoding='utf-8') as f:
+              games=json.load(f)
+          assert len(games)==400 and len(set(g['rom'] for g in games))==400
+          assert not any(g['rom'] in ('1942','1942gr') for g in games)
+          PY
+          # Keep the owner's genuine assets while retiring all OLD HTML routes.
+          cp -a logo _publish/
+          cp -a img _publish/
+          mkdir -p _publish/compatibility/arcade
+          cp -a compatibility/arcade/imgs _publish/compatibility/arcade/
+          # Website images can be added in parallel to arcade-nosamples.
+          if [ -d assets/game-media ]; then
+            mkdir -p _publish/assets/game-media
+            cp -a assets/game-media/. _publish/assets/game-media/
+          fi
+          if [ -f data/game-media.json ]; then
+            cp data/game-media.json _publish/data/game-media.json
+          fi
+          touch _publish/.nojekyll
+          echo "Deploying DEmuFM Next. Legacy HTML pages are not part of _publish."
+      - name: Upload production site
         uses: actions/upload-pages-artifact@v3
-
-  # Deployment job
+        with:
+          path: ./_publish
   deploy:
+    needs: build
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
