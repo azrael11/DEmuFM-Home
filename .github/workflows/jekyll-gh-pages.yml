@@ -26,9 +26,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          test -f deployment/DEmuFM-Next-Public-0.0.6.zip || { echo "::error::Upload deployment/DEmuFM-Next-Public-0.0.6.zip before merging"; exit 1; }
+          test -f deployment/DEmuFM-Next-Public-0.0.6.tar.xz || { echo "::error::Missing validated production payload"; exit 1; }
           mkdir -p _publish
-          unzip -oq deployment/DEmuFM-Next-Public-0.0.6.zip -d _publish
+          tar -xJf deployment/DEmuFM-Next-Public-0.0.6.tar.xz -C _publish
           test -f _publish/index.html
           test -f _publish/assets/app.js
           test -f _publish/data/arcade.json
