@@ -1,3 +1,5 @@
+🇬🇧 **English** | [🇬🇷 Ελληνικά](README.el.md)
+
 # DEmuFM — Official Arcade Website
 
 [**Visit the official DEmuFM website**](https://azrael11.github.io/DEmuFM-Home/)
