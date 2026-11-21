@@ -71,7 +71,7 @@ jobs:
           games = json.loads(Path('_publish/data/arcade.json').read_text(encoding='utf-8'))
           assert len(games) == 400
           assert len({g['rom'] for g in games}) == 400
-          assert not any(g['rom'] in ('1942', '1942gr') for g in games)
+          assert not any(g['rom'] in ('1942', '1942gl', '1942gr') for g in games)
           for resource in ('index.html', 'assets/app.js', 'assets/i18n.js', 'assets/styles.css'):
               assert Path('_publish', resource).exists(), resource
           print('Validated real DEmuFM Next website with 400 games.')
