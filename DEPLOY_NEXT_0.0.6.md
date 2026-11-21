@@ -8,7 +8,7 @@ This repository publishes the designed **DEmuFM Next v0.4.1** static website, up
 
 - **400 individually tested arcade games:** every game is playable at its correct game-specific frame rate, with an internal `#game/<rom>` profile.
 - Greek and English user interfaces, the official logo, and a Windows Downloads section.
-- The unfinished experimental **1942 GR OpenGL** title is not included in the 400 games.
+- The unfinished experimental **1942 GL OpenGL** title is not included in the 400 games.
 - The emulator source repository is private. GitHub release `v0.0.6` is source-only, with no public Win64 binary.
 - The retired legacy HTML pages are not part of the new site. The logo and genuine gameplay images from the older collection remain available.
 - Primary images are available for **169 / 400** ROMs; the **231** missing primary pictures are listed in [issue #47](https://github.com/azrael11/DEmuFM/issues/47).
@@ -19,7 +19,7 @@ The workflow `.github/workflows/jekyll-gh-pages.yml` publishes the static site t
 
 1. Confirms that canonical root files `index.html`, `assets/app.js` and `data/arcade.json` exist.
 2. Assembles the website from its HTML, CSS/JavaScript, data, logo and existing gallery assets.
-3. Validates that the catalogue contains exactly **400 unique ROM keys**, excluding experimental 1942 GR.
+3. Validates that the catalogue contains exactly **400 unique ROM keys**, excluding experimental 1942 GL.
 4. Uploads and deploys the assembled static site to GitHub Pages.
 
 The original compressed publication package remains at `deployment/DEmuFM-Next-Public-0.0.6.tar.xz` as a retained distribution snapshot. The canonical website is maintained from actual root files.
