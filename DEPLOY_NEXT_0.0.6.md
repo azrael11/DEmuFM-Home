@@ -1,26 +1,33 @@
-# DEmuFM Next — public website 0.0.6
+🇬🇧 **English** | [🇬🇷 Ελληνικά](DEPLOY_NEXT_0.0.6.el.md)
 
-This repository deploys the **v0.4.1 DEmuFM Next** website (updated for source version 0.0.6) from an immutable, checksum-verified production archive in `deployment/DEmuFM-Next-Public-0.0.6.tar.xz`.
+# DEmuFM Next — public website deployment (0.0.6)
 
-## Release and site
-- **400 owner-reported playable Arcade games** with internal `#game/<rom>` pages, Greek/English translations, official logo and Windows-only Downloads section.
-- Unfinished OpenGL experiment `1942 GR` excluded. Only *tested* games are claimed at expected 60 FPS.
-- The repo `azrael11/DEmuFM` is private: source-only release `v0.0.6` has no public Win64 binary; don't offer fake executable downloads.
-- The old HTML pages are excluded from the published artifact. The genuine original logo and old game screenshots are retained; **169/400** ROM-matching primary images, **231 still missing**.
-- Detailed missing image checklist: [DEmuFM issue #47](https://github.com/azrael11/DEmuFM/issues/47).
+This repository publishes the designed **DEmuFM Next v0.4.1** static website, updated for emulator version 0.0.6. The real `index.html`, CSS and JavaScript under `assets/`, and JSON files under `data/` live at the repository root.
 
-## Automated deployment
-Changes to `main` trigger `.github/workflows/jekyll-gh-pages.yml`, now a static deploy workflow:
-1. Extracts the verified tar.xz contents into `_publish/`.
-2. Validates the JSON has exactly 400 distinct ROMs and excludes 1942 GR.
-3. Copies official `logo/`, legacy `img/`, and `compatibility/arcade/imgs/` assets into the deployment, **without** copying legacy HTML pages.
-4. Overlays user-curated image assets from `assets/game-media/` and `data/game-media.json` if present.
-5. Publishes `_publish/` to GitHub Pages.
+## Website contents
 
-## Adding screenshots while working on arcade-nosamples
-Commit `assets/game-media/<rom>/cover.webp` (or PNG/JPG) and add `cover`/ `screenshots` to `data/game-media.json`. The deploy workflow overlays these files on the current site. Prefer authentic DEmuFM F11 screenshots, and preserve the image identity to the correct ROM.
+- **400 individually tested arcade games:** every game is playable at its correct game-specific frame rate, with an internal `#game/<rom>` profile.
+- Greek and English user interfaces, the official logo, and a Windows Downloads section.
+- The unfinished experimental **1942 GR OpenGL** title is not included in the 400 games.
+- The emulator source repository is private. GitHub release `v0.0.6` is source-only, with no public Win64 binary.
+- The retired legacy HTML pages are not part of the new site. The logo and genuine gameplay images from the older collection remain available.
+- Primary images are available for **169 / 400** ROMs; the **231** missing primary pictures are listed in [issue #47](https://github.com/azrael11/DEmuFM/issues/47).
 
-## Source and maintenance
-The production archive is a stable published copy of the owner's last private v0.4.1 preview with updated 0.0.6 messaging. For more extensive layout changes, edit the website source copy and regenerate the archive; the public deployment never pulls private emulator code into a browser.
+## Automated publishing
 
-The earlier website remains in Git history for rollback. The production Pages deployment contains only the new HTML application.
+The workflow `.github/workflows/jekyll-gh-pages.yml` publishes the static site through GitHub Pages whenever the public repository is updated.
+
+1. Confirms that canonical root files `index.html`, `assets/app.js` and `data/arcade.json` exist.
+2. Assembles the website from its HTML, CSS/JavaScript, data, logo and existing gallery assets.
+3. Validates that the catalogue contains exactly **400 unique ROM keys**, excluding experimental 1942 GR.
+4. Uploads and deploys the assembled static site to GitHub Pages.
+
+The original compressed publication package remains at `deployment/DEmuFM-Next-Public-0.0.6.tar.xz` as a retained distribution snapshot. The canonical website is maintained from actual root files.
+
+## Adding game images
+
+Game media can be added under `assets/game-media/<rom>/` and referenced from `data/game-media.json`. Authentic screenshots captured with DEmuFM's F11 are preferred. Verify that each image matches its ROM identity.
+
+## Maintenance
+
+Edit the repository's `index.html`, `assets/` and `data/` files when changing the site. Publishing does not expose private emulator source code in the browser. Older site content remains available in Git history for rollback.
