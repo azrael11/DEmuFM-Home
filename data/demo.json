@@ -1,0 +1,162 @@
+[
+  {
+    "name": "1943 Kai: Midway Kaisen",
+    "rom": "1943kai",
+    "manufactor": "Capcom",
+    "status": "Everything seems ok.",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/1943kai.jpg"
+  },
+  {
+    "name": "1943: The Battle of Midway",
+    "rom": "1943",
+    "manufactor": "Capcom",
+    "status": "Everything seems ok.",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/1943.jpg"
+  },
+  {
+    "name": "64th. Street: A Detective Story",
+    "rom": "64street",
+    "manufactor": "Jaleco",
+    "status": "Everything seems ok.",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/64street.jpg"
+  },
+  {
+    "name": "Act-Fancer: Cybernetick Hyper Weapon",
+    "rom": "actfancr",
+    "manufactor": "Data East",
+    "status": "Everything seems ok.",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/actfancr.jpg"
+  },
+  {
+    "name": "Ajax",
+    "rom": "ajax",
+    "manufactor": "Konami",
+    "status": "Graphics: Some glitches here and there and in the start screen",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/ajax.jpg"
+  },
+  {
+    "name": "Alex Kidd: The Lost Stars",
+    "rom": "alexkidd",
+    "manufactor": "Sega",
+    "status": "Everything seems ok.",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/alexkidd.jpg"
+  },
+  {
+    "name": "Alien Syndrome",
+    "rom": "aliensyn",
+    "manufactor": "Sega",
+    "status": "Sound: Little glitches",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/aliensyn.jpg"
+  },
+  {
+    "name": "Aliens",
+    "rom": "aliens",
+    "manufactor": "Konami",
+    "status": "Graphics: OK but not upscaling\r\nSound: OK\r\nControls: OK",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/aliens.jpg"
+  },
+  {
+    "name": "Enduro Racer",
+    "rom": "enduror",
+    "manufactor": "Sega",
+    "status": "Everything seems ok.",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/enduror.jpg"
+  },
+  {
+    "name": "Galaga",
+    "rom": "galaga",
+    "manufactor": "Namco",
+    "status": "Everything seems ok.",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/galaga.jpg"
+  },
+  {
+    "name": "Golden Axe",
+    "rom": "goldnaxe",
+    "manufactor": "Sega",
+    "status": "Everything seems ok.",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/goldnaxe.jpg"
+  },
+  {
+    "name": "Gradius III",
+    "rom": "gradius3",
+    "manufactor": "Konami",
+    "status": "Everything seems ok.",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/gradius3.jpg"
+  },
+  {
+    "name": "Hyper Pacman",
+    "rom": "hyperpac",
+    "manufactor": "SemiCom",
+    "status": "",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/hyperpac.jpg"
+  },
+  {
+    "name": "Ms. Pac-Man",
+    "rom": "mspacman",
+    "manufactor": "Namco",
+    "status": "Everything seems ok.",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/mspacman.jpg"
+  },
+  {
+    "name": "Out Run",
+    "rom": "outrun",
+    "manufactor": "Sega",
+    "status": "Graphics: OK\r\nSound: OK\r\nControllers : Keys not working",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/outrun.jpg"
+  },
+  {
+    "name": "Pac-Man",
+    "rom": "pacman",
+    "manufactor": "Namco",
+    "status": "Everything seems ok.",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/pacman.jpg"
+  },
+  {
+    "name": "Raiden",
+    "rom": "raiden",
+    "manufactor": "Seibu Kaihatsu",
+    "status": "Graphics: OK\r\nSound: OK\r\nControls: Not Working\r\nCore: OK\r\nHang: NO",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/raiden.jpg"
+  },
+  {
+    "name": "Street Fighter",
+    "rom": "sf",
+    "manufactor": "Capcom",
+    "status": "Graphics: OK\r\nSound: NO",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/sf.jpg"
+  },
+  {
+    "name": "Street Fighter II: The World Warrior",
+    "rom": "sf2",
+    "manufactor": "Capcom",
+    "status": "Graphics: OK\r\nSound: Sound stops after game starts",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/sf2.jpg"
+  },
+  {
+    "name": "The Punisher",
+    "rom": "punisher",
+    "manufactor": "Capcom",
+    "status": "Everything seems ok.",
+    "hiscore": "No",
+    "image": "https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/punisher.jpg"
+  }
+]

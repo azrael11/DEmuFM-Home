@@ -1,0 +1,2802 @@
+[
+  {
+    "name": "'88 Games",
+    "rom": "88games",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "1943 Kai: Midway Kaisen",
+    "rom": "1943kai",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "1943: The Battle of Midway",
+    "rom": "1943",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "1945k III",
+    "rom": "1945kiii",
+    "manufactor": "Oriental Soft",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "3x3 Puzzle",
+    "rom": "3x3puzzl",
+    "manufactor": "Ace Enterprise",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "64th. Street: A Detective Story",
+    "rom": "64street",
+    "manufactor": "Jaleco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "96 Flag Rally",
+    "rom": "flagrall",
+    "manufactor": "Promat",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Act-Fancer: Cybernetick Hyper Weapon",
+    "rom": "actfancr",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Airwolf",
+    "rom": "airwolf",
+    "manufactor": "Kyugo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ajax",
+    "rom": "ajax",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Alex Kidd: The Lost Stars",
+    "rom": "alexkidd",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ali Baba and 40 Thieves",
+    "rom": "alibaba",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Alien Syndrome",
+    "rom": "aliensyn",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Aliens",
+    "rom": "aliens",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Altered Beast",
+    "rom": "altbeast",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ambush",
+    "rom": "ambush",
+    "manufactor": "Tecfri",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Amidar",
+    "rom": "amidar",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Anteater",
+    "rom": "anteater",
+    "manufactor": "Tago Electronics",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Appoooh",
+    "rom": "appoooh",
+    "manufactor": "Sanritsu/Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Arabian",
+    "rom": "arabian",
+    "manufactor": "Sun Electronics",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ark Area",
+    "rom": "arkarea",
+    "manufactor": "UPL",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Arkanoid",
+    "rom": "arkanoid",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Armed Formation F",
+    "rom": "armedf",
+    "manufactor": "Nichibutsu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Armored Car",
+    "rom": "armorcar",
+    "manufactor": "Stern Electronics",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "ASO - Armored Scrum Object",
+    "rom": "aso",
+    "manufactor": "SNK",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Asteroids",
+    "rom": "asteroid",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Athena",
+    "rom": "athena",
+    "manufactor": "SNK",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Atomic Robo-Kid",
+    "rom": "robokid",
+    "manufactor": "UPL",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Aurail",
+    "rom": "aurail",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Avengers",
+    "rom": "avengers",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Bad Dudes Vs. DragonNinja",
+    "rom": "baddudes",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Badlands",
+    "rom": "badlands",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Bagman",
+    "rom": "bagman",
+    "manufactor": "Valadon Automation",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Baluba-louk no Densetsu",
+    "rom": "baluba",
+    "manufactor": "Able Corp, Ltd.",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Bank Panic",
+    "rom": "bankp",
+    "manufactor": "Sanritsu/Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Baraduke",
+    "rom": "baraduke",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Battle of Atlantis",
+    "rom": "atlantis",
+    "manufactor": "Comsoft",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Big Karnak",
+    "rom": "bigkarnk",
+    "manufactor": "Gaelco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Biomechanical Toy",
+    "rom": "biomtoy",
+    "manufactor": "Gaelco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Bionic Commando",
+    "rom": "bionicc",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Birdiy",
+    "rom": "birdiy",
+    "manufactor": "Mama Top",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Black Tiger",
+    "rom": "blktiger",
+    "manufactor": "Capcom",
+    "hiscore": "Yes",
+    "status": "Playable"
+  },
+  {
+    "name": "Block Out",
+    "rom": "blockout",
+    "manufactor": "Technos",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Blood Brothers",
+    "rom": "bloodbro",
+    "manufactor": "TAD Corporation",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Blue Hawk",
+    "rom": "bluehawk",
+    "manufactor": "Dooyong",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Blue Print",
+    "rom": "blueprnt",
+    "manufactor": "Zilec Electronics/Bally Midway",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Bomb Jack",
+    "rom": "bombjack",
+    "manufactor": "Tehkan",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Bomb Jack Twin",
+    "rom": "bjtwin",
+    "manufactor": "NMK",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Boogie Wings",
+    "rom": "boogwing",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Bosconian",
+    "rom": "bosco",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Boulder Dash",
+    "rom": "bouldash",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "BreakThru",
+    "rom": "brkthru",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Bubble Bobble",
+    "rom": "bublbobl",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Burger Time",
+    "rom": "btime",
+    "manufactor": "Deco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "BurglarX",
+    "rom": "burglarx",
+    "manufactor": "Unico",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Cabal",
+    "rom": "cabal",
+    "manufactor": "TAD",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Cadillacs and Dinosaurs",
+    "rom": "dino",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Calipso",
+    "rom": "calipso",
+    "manufactor": "Tago Electronics",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Calorie Kun vs Moguranian",
+    "rom": "calorie",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Captain Commando",
+    "rom": "captcomm",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Captain Silver",
+    "rom": "csilver",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Cavelon",
+    "rom": "cavelon",
+    "manufactor": "Jetsoft",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Caveman Ninja",
+    "rom": "cninja",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Centipede",
+    "rom": "centiped",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Chack 'N Pop",
+    "rom": "casanova",
+    "manufactor": "Promat",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Chameleon",
+    "rom": "chameleo",
+    "manufactor": "Jaleco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Chelnov",
+    "rom": "chelnov",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "China Gate",
+    "rom": "chinagat",
+    "manufactor": "Technos Japan",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Choplifter",
+    "rom": "choplift",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Circus Charlie",
+    "rom": "circusc",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "City Connection",
+    "rom": "citycon",
+    "manufactor": "Jaleco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Cobra-Command",
+    "rom": "cobracom",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Colony 7",
+    "rom": "colony7",
+    "manufactor": "Williams",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Combat Hawk",
+    "rom": "combh",
+    "manufactor": "Sanritsu/Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Combat School",
+    "rom": "combatsc",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Come Back Toto",
+    "rom": "toto",
+    "manufactor": "SoftClub",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Commando",
+    "rom": "commando",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Congo Bongo",
+    "rom": "congo",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Contra",
+    "rom": "contra",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Cosmic Avenger",
+    "rom": "cavenger",
+    "manufactor": "Universal",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Cotton",
+    "rom": "cotton",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Crazy Climber",
+    "rom": "cclimber",
+    "manufactor": "Nichibutsu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Crazy Climber 2",
+    "rom": "cclimbr2",
+    "manufactor": "Nichibutsu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Crush Roller",
+    "rom": "crush",
+    "manufactor": "Alpha Denshi Co./Kural Samno Electric, Ltd.",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Crystal Castles",
+    "rom": "ccastles",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Darwin 4078",
+    "rom": "darwin",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Defender",
+    "rom": "defender",
+    "manufactor": "Williams",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Diet Go Go",
+    "rom": "dietgo",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Dig Dug",
+    "rom": "digdug",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Dig Dug II",
+    "rom": "digdug2",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Diverboy",
+    "rom": "diverboy",
+    "manufactor": "Gamart",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Do! Run Run",
+    "rom": "dorunrun",
+    "manufactor": "Universal",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Donkey Kong",
+    "rom": "dkong",
+    "manufactor": "Nintendo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Donkey Kong 3",
+    "rom": "dkong3",
+    "manufactor": "Nintendo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Donkey Kong Jr.",
+    "rom": "dkongjr",
+    "manufactor": "Nintendo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Double Dragon",
+    "rom": "ddragon",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Double Dragon 3: The Rosetta Stone",
+    "rom": "ddragon3",
+    "manufactor": "Technos",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Double Dragon II: The Revenge",
+    "rom": "ddragon2",
+    "manufactor": "Technos",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Dragon Buster",
+    "rom": "drgnbstr",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Dynamite Dux",
+    "rom": "ddux1",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "E-SWAT: Cyber Police",
+    "rom": "eswat",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Elevator Action",
+    "rom": "elevator",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Enduro Racer",
+    "rom": "enduror",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Equites",
+    "rom": "exedexes",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Express Raider",
+    "rom": "exprraid",
+    "manufactor": "Deco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Extermination",
+    "rom": "extrmatn",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Eyes",
+    "rom": "eyes",
+    "manufactor": "Techstar",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "F-1 Dream",
+    "rom": "f1dream",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Fantasy Zone",
+    "rom": "fantzone",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Fantasy Zone II: The Tears of Opa-Opa",
+    "rom": "fantzn2",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Fantasy Zone II: The Tears of Opa-Opa",
+    "rom": "opaopa",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Fighting Basketball",
+    "rom": "fghtbskt",
+    "manufactor": "Irem",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Final Fight",
+    "rom": "ffight",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Final Star Force",
+    "rom": "fstarfrc",
+    "manufactor": "Tecmo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Fire Ball",
+    "rom": "fball",
+    "manufactor": "FM Works",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Fire Trap",
+    "rom": "firetrap",
+    "manufactor": "Woodplace Inc.",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Flicky",
+    "rom": "flicky",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Flower",
+    "rom": "flower",
+    "manufactor": "Clarue",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Flying Shark",
+    "rom": "fshark",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Flying Tiger",
+    "rom": "flytiger",
+    "manufactor": "Dooyong",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Food Fight",
+    "rom": "foodf",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Free Kick",
+    "rom": "freekick",
+    "manufactor": "Nihon System",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Frogger",
+    "rom": "frogger",
+    "manufactor": "Konami",
+    "hiscore": "Yes",
+    "status": "Playable"
+  },
+  {
+    "name": "Funky Jet",
+    "rom": "funkyjet",
+    "manufactor": "Mitchell",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Future Spy",
+    "rom": "futspy",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Gaiapolis",
+    "rom": "gaplus",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Galactic Warriors",
+    "rom": "gwarrior",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Galaga",
+    "rom": "galaga",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Galaxian",
+    "rom": "galaxian",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Galivan - Cosmo Police",
+    "rom": "galivan",
+    "manufactor": "Nichibutsu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Gang Busters",
+    "rom": "gbusters",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Gardia",
+    "rom": "gardia",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Garyo Retsuden",
+    "rom": "garyoret",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Gauntlet",
+    "rom": "gauntlet2p",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Gauntlet II",
+    "rom": "gaunt2",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Genix Family",
+    "rom": "genix",
+    "manufactor": "NIX",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Genpei ToumaDen",
+    "rom": "genpeitd",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ghosts 'n Goblins",
+    "rom": "gng",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ghouls 'n Ghosts",
+    "rom": "ghouls",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Gigas",
+    "rom": "gigas",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Gigas Mark II",
+    "rom": "gigasm2",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Golden Axe",
+    "rom": "goldnaxe",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Gondomania",
+    "rom": "gondo",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Gradius III",
+    "rom": "gradius3",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Grasspin",
+    "rom": "grasspin",
+    "manufactor": "Zilec Electronics/Jaleco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Green Beret",
+    "rom": "gberet",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Grobda",
+    "rom": "grobda",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Gulf Storm",
+    "rom": "gulfstrm",
+    "manufactor": "Dooyong",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Gun.Smoke",
+    "rom": "gunsmoke",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Gyruss",
+    "rom": "gyruss",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Hammerin' Harry",
+    "rom": "hharry",
+    "manufactor": "Irem",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Hang-On",
+    "rom": "hangon",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Hang-On Jr.",
+    "rom": "hangonjr",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Hard Head",
+    "rom": "hardhead",
+    "manufactor": "Suna",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Hard Head 2",
+    "rom": "hardhea2",
+    "manufactor": "Suna",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Heavy Unit",
+    "rom": "hvyunit",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Hellfire",
+    "rom": "hellfire",
+    "manufactor": "Toaplan",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Hippodrome",
+    "rom": "hippodrm",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Hopping Mappy",
+    "rom": "hopmappy",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Hot Blocks",
+    "rom": "hotblock",
+    "manufactor": "NIX?",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Hyper Pacman",
+    "rom": "hyperpac",
+    "manufactor": "SemiCom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Hyper Sports",
+    "rom": "hyperspt",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ikari III: The Rescue",
+    "rom": "ikari3",
+    "manufactor": "SNK",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ikari Warriors",
+    "rom": "ikari",
+    "manufactor": "SNK",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Indiana Jones and the Temple of Doom",
+    "rom": "indytemp",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Indoor Soccer",
+    "rom": "idsoccer",
+    "manufactor": "Universal",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Insector X",
+    "rom": "insectx",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Iron Horse",
+    "rom": "ironhors",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Jackal",
+    "rom": "jackal",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Jail Break",
+    "rom": "jailbrek",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Joust",
+    "rom": "joust",
+    "manufactor": "Williams",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Jr. Pac-Man",
+    "rom": "jrpacman",
+    "manufactor": "Bally Midway",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ju Ju Densetsu",
+    "rom": "toki",
+    "manufactor": "TAD",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Jump Bug",
+    "rom": "jumpbug",
+    "manufactor": "Rock-Ola",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Jumping Jack",
+    "rom": "jjack",
+    "manufactor": "Universal",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Jungle King",
+    "rom": "junglek",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Jungler",
+    "rom": "jungler",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Juno First",
+    "rom": "junofrst",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Kangaroo",
+    "rom": "kangaroo",
+    "manufactor": "Sun Electronics",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Karate Champ",
+    "rom": "kchamp",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Karnov",
+    "rom": "karnov",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Kick and Run",
+    "rom": "kicknrun",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Kick Rider",
+    "rom": "kickridr",
+    "manufactor": "Universal",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "KiKi KaiKai",
+    "rom": "kikikai",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Knights of the Round",
+    "rom": "knights",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Knuckle Joe",
+    "rom": "kncljoe",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Kung-Fu Master",
+    "rom": "kungfum",
+    "manufactor": "Irem",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Lady Bug",
+    "rom": "ladybug",
+    "manufactor": "Universal",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Lasso",
+    "rom": "lasso",
+    "manufactor": "SNK",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Last Duel",
+    "rom": "lastduel",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Last Mission",
+    "rom": "lastmisn",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Led Storm Rally 2011",
+    "rom": "leds2011",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Legendary Wings",
+    "rom": "lwings",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Legion",
+    "rom": "legion",
+    "manufactor": "Nichibutsu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Lock 'n' Chase",
+    "rom": "lnc",
+    "manufactor": "Deco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Lode Runner",
+    "rom": "ldrun",
+    "manufactor": "Irem",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Lode Runner II",
+    "rom": "ldrun2",
+    "manufactor": "Irem",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Lunar Lander",
+    "rom": "llander",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mad Gear",
+    "rom": "madgear",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mag Max",
+    "rom": "magmax",
+    "manufactor": "Nichibutsu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mappy",
+    "rom": "mappy",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Marble Madness",
+    "rom": "marble",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mario Bros.",
+    "rom": "mario",
+    "manufactor": "Nintendo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mayday",
+    "rom": "mayday",
+    "manufactor": "Williams",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mega Man III",
+    "rom": "megazone",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Metro-Cross",
+    "rom": "metrocrs",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mikie",
+    "rom": "mikie",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Millipede",
+    "rom": "milliped",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Minky Monkey",
+    "rom": "mmonkey",
+    "manufactor": "Deco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Missile Command",
+    "rom": "missile",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mister Viking",
+    "rom": "mrviking",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Moon Cresta",
+    "rom": "mooncrst",
+    "manufactor": "Nichibutsu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mortal Race",
+    "rom": "mortalr",
+    "manufactor": "Ecogames",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Motos",
+    "rom": "motos",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mr. Do's Castle",
+    "rom": "docastle",
+    "manufactor": "Universal",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mr. Do's Wild Ride",
+    "rom": "dowild",
+    "manufactor": "Universal",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mr. Do!",
+    "rom": "mrdo",
+    "manufactor": "Universal",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mr. Goemon",
+    "rom": "mrgoemon",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ms Pac Man Twin",
+    "rom": "mspactwin",
+    "manufactor": "Susilu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ms. Pac-Man",
+    "rom": "mspacman",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mug Smashers",
+    "rom": "mugsmash",
+    "manufactor": "Electronic Devices Italy",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mutant Night",
+    "rom": "mnight",
+    "manufactor": "UPL",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Mysterious Stones",
+    "rom": "mystston",
+    "manufactor": "Technos",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Nemesis",
+    "rom": "nemesis",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "New Rally-X",
+    "rom": "nrallyx",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ninja Hayate",
+    "rom": "ninjakd2",
+    "manufactor": "UPL",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Omega Fighter",
+    "rom": "omega",
+    "manufactor": "Nihon System",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Operation Wolf",
+    "rom": "opwolf",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Out Run",
+    "rom": "outrun",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "P-47: The Phantom Fighter",
+    "rom": "p47",
+    "manufactor": "Jaleco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "P.O.W.: Prisoners of War",
+    "rom": "pow",
+    "manufactor": "SNK",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Pac-Land",
+    "rom": "pacland",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Pac-Man",
+    "rom": "pacman",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Pac & Pal",
+    "rom": "pacnpal",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Pang",
+    "rom": "pang",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Passing Shot (Sega)",
+    "rom": "passsht",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Pengo",
+    "rom": "pengo",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Perfect Billard",
+    "rom": "pbillrd",
+    "manufactor": "Nihon System",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Peter Pack Rat",
+    "rom": "peterpak",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Phoenix",
+    "rom": "phoenix",
+    "manufactor": "Amstar Electronics",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Pinball Action",
+    "rom": "pbaction",
+    "manufactor": "Tehkan",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Piranha",
+    "rom": "piranha",
+    "manufactor": "GL",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Pirate Ship Higemaru",
+    "rom": "higemaru",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Pirates",
+    "rom": "pirates",
+    "manufactor": "NIX",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Pitfall II: Lost Caverns",
+    "rom": "pitfall2",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Pleiads",
+    "rom": "pleiads",
+    "manufactor": "Tehkan",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Pollux",
+    "rom": "pollux",
+    "manufactor": "Dooyong",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Ponpoko",
+    "rom": "ponpoko",
+    "manufactor": "Sigma",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Pooyan",
+    "rom": "pooyan",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Popeye",
+    "rom": "popeye",
+    "manufactor": "Nintendo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Prehistoric Isle",
+    "rom": "prehisle",
+    "manufactor": "SNK",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Psychic 5",
+    "rom": "psychic5",
+    "manufactor": "Jaleco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Psycho-Nics Oscar",
+    "rom": "oscar",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "R-Type",
+    "rom": "rtype",
+    "manufactor": "Irem",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "R-Type II",
+    "rom": "rtype2",
+    "manufactor": "Irem",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Raiden",
+    "rom": "raiden",
+    "manufactor": "Seibu Kaihatsu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Rainbow Islands",
+    "rom": "rbisland",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Rainbow Islands Extra",
+    "rom": "rbislande",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Rally-X",
+    "rom": "rallyx",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Rastan",
+    "rom": "rastan",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Renegade",
+    "rom": "renegade",
+    "manufactor": "Technos Japan",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Repulse",
+    "rom": "repulse",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Return of the Invaders",
+    "rom": "retofinv",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Riddle Of Pythagoras",
+    "rom": "ridleofp",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Riot City",
+    "rom": "riotcity",
+    "manufactor": "Sega/Westone",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Road Fighter",
+    "rom": "roadf",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Robo Wres 2001",
+    "rom": "robowres",
+    "manufactor": "Sanritsu/Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "RoboCop",
+    "rom": "robocop",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "RoboCop 2",
+    "rom": "robocop2",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Robotron: 2084",
+    "rom": "robotron",
+    "manufactor": "Williams",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Roc'n Rope",
+    "rom": "rocnrope",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Rod-Land",
+    "rom": "rodland",
+    "manufactor": "Jaleco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Rolling Thunder",
+    "rom": "rthunder",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Route 16",
+    "rom": "route16",
+    "manufactor": "Sun Electronics",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Rygar",
+    "rom": "rygar",
+    "manufactor": "Tecmo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "S.R.D. Mission",
+    "rom": "srdmissn",
+    "manufactor": "Kyugo/Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Saboten Bombers",
+    "rom": "sabotenb",
+    "manufactor": "NMK",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Saint Dragon",
+    "rom": "stdragon",
+    "manufactor": "Jaleco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Salamander",
+    "rom": "salamand",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "SAR - Search And Rescue",
+    "rom": "searchar",
+    "manufactor": "SNK",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Saturn",
+    "rom": "saturnzi",
+    "manufactor": "Zilec Electronics/Jaleco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Sauro",
+    "rom": "sauro",
+    "manufactor": "Tecfri",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Scramble",
+    "rom": "scramble",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "SDI - Strategic Defense Initiative",
+    "rom": "sdib",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Section Z",
+    "rom": "sectionz",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Sega Ninja",
+    "rom": "seganinj",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Senjyo",
+    "rom": "senjyo",
+    "manufactor": "Tehkan",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Sexy Parodius",
+    "rom": "supduck",
+    "manufactor": "Comad",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Shackled",
+    "rom": "shackled",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Shadow Warriors",
+    "rom": "shadoww",
+    "manufactor": "Tecmo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Shaolin's Road",
+    "rom": "shaolins",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Shinobi",
+    "rom": "shinobi",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Shootout",
+    "rom": "shootout",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Side Arms - Hyper Dyne",
+    "rom": "sidearms",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Silkworm",
+    "rom": "silkworm",
+    "manufactor": "Tecmo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Sky Kid",
+    "rom": "skykid",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Sky Kid Deluxe",
+    "rom": "skykiddx",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Sky Skipper",
+    "rom": "skyskipr",
+    "manufactor": "Nintendo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Sky Smasher",
+    "rom": "skysmash",
+    "manufactor": "Nihon System",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Slap Fight",
+    "rom": "slapfigh",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Slap Shooter",
+    "rom": "slapshtr",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Sly Spy",
+    "rom": "slyspy",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Snap Jack",
+    "rom": "snapjack",
+    "manufactor": "Universal",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Snow Bros.",
+    "rom": "snowbros",
+    "manufactor": "Toaplan",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Soldier Girl Amazon",
+    "rom": "amazon",
+    "manufactor": "Nichibutsu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Solomon's Key",
+    "rom": "solomon",
+    "manufactor": "Tecmo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Son Son",
+    "rom": "sonson",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Space Firebird",
+    "rom": "spacefb",
+    "manufactor": "Nintendo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Space Harrier",
+    "rom": "sharrier",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Space Invaders",
+    "rom": "invaders",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Speak & Rescue",
+    "rom": "speakres",
+    "manufactor": "Sun Electronics",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Spelunker",
+    "rom": "spelunkr",
+    "manufactor": "Broderbound",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Spelunker II",
+    "rom": "spelunk2",
+    "manufactor": "Broderbound",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Squash",
+    "rom": "squash",
+    "manufactor": "Gaelco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "SRD Super Real Darwin",
+    "rom": "srdarwin",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Star Force",
+    "rom": "starforc",
+    "manufactor": "Tehkan",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Stargate",
+    "rom": "stargate",
+    "manufactor": "Williams",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Steel Force",
+    "rom": "stlforce",
+    "manufactor": "Ecogames",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Street Fighter",
+    "rom": "sf",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Street Fighter II: Champion Edition",
+    "rom": "sf2ce",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Street Fighter II: The World Warrior",
+    "rom": "sf2",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Street Smart",
+    "rom": "streetsm",
+    "manufactor": "SNK",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Strider",
+    "rom": "strider",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Sunset Riders",
+    "rom": "ssriders",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Super Bagman",
+    "rom": "sbagman",
+    "manufactor": "Valadon Automation",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Super Basketball",
+    "rom": "sbasketb",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Super Burger Time",
+    "rom": "supbtime",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Super Cobra",
+    "rom": "scobra",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Super Contra",
+    "rom": "scontra",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Super Dodge Ball",
+    "rom": "spdodgeb",
+    "manufactor": "Technos",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Super Glob",
+    "rom": "suprglob",
+    "manufactor": "Epos",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Super Missile Attack",
+    "rom": "suprmatk",
+    "manufactor": "Atari",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Super Pac-Man",
+    "rom": "superpac",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Super Pang",
+    "rom": "spang",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Super Xevious",
+    "rom": "sxevious",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Super Zaxxon",
+    "rom": "szaxxon",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Tank",
+    "rom": "tnk3",
+    "manufactor": "SNK",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Tapper",
+    "rom": "tapper",
+    "manufactor": "Bally Midway",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Targ",
+    "rom": "tetris",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Teddy Boy Blues",
+    "rom": "teddybb",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles",
+    "rom": "tmnt",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Tehkan World Cup",
+    "rom": "tehkanwc",
+    "manufactor": "Tehkan",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Terra Cresta",
+    "rom": "terracre",
+    "manufactor": "Nichibutsu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Terra Force",
+    "rom": "terraf",
+    "manufactor": "Nichibutsu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Tetris",
+    "rom": "tetrisse",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Tetris (Atari)",
+    "rom": "atetris",
+    "manufactor": "Atari Games",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Tetris (Sega)",
+    "rom": "twinsed1",
+    "manufactor": "Ecogames",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The Combatribes",
+    "rom": "ctribe",
+    "manufactor": "Technos",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The End",
+    "rom": "theend",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The Glob",
+    "rom": "theglob",
+    "manufactor": "Epos",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The King of Dragons",
+    "rom": "kod",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The Last Day",
+    "rom": "lastday",
+    "manufactor": "Dooyong",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The Legend of Kage",
+    "rom": "lkage",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The New Zealand Story",
+    "rom": "tnzs",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The Punisher",
+    "rom": "punisher",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The Real Ghostbusters",
+    "rom": "ghostb",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The Return Of Ishtar",
+    "rom": "roishtar",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The Simpsons",
+    "rom": "simpsons",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The Speed Rumbler",
+    "rom": "srumbler",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "The Tower of Druaga",
+    "rom": "todruaga",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Three Wonders",
+    "rom": "3wonders",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Thunder & Lightning (Seta)",
+    "rom": "thunderl",
+    "manufactor": "Seta",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Thunder Cross",
+    "rom": "thunderx",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Thunder Hoop",
+    "rom": "thoop",
+    "manufactor": "Gaelco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Thundercade",
+    "rom": "tndrcade",
+    "manufactor": "Seta",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Tiger Heli",
+    "rom": "tigerh",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Tiger Road",
+    "rom": "tigeroad",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Time Pilot",
+    "rom": "timeplt",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Time Pilot '84",
+    "rom": "tp84",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Track & Field",
+    "rom": "trackfld",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Transformer",
+    "rom": "transfrm",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Trojan",
+    "rom": "trojan",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Tumble Pop",
+    "rom": "tumblep",
+    "manufactor": "Data East",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Tutankham",
+    "rom": "tutankhm",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Twin Brats",
+    "rom": "twinbrat",
+    "manufactor": "Ecogames",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Twin Cobra",
+    "rom": "twincobr",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Twin Eagle - Revenge of Joe's Brother",
+    "rom": "twineagl",
+    "manufactor": "Seta",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "TwinBee",
+    "rom": "twinbee",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Twins",
+    "rom": "twins",
+    "manufactor": "Ecogames",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "UFO Robo Dangar",
+    "rom": "dangar",
+    "manufactor": "Nichibutsu",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Up'n Down",
+    "rom": "upndown",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Vendetta",
+    "rom": "vendetta",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Vigilante",
+    "rom": "vigilant",
+    "manufactor": "Irem",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Volfied",
+    "rom": "volfied",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Vulgus",
+    "rom": "vulgus",
+    "manufactor": "Capcom",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Wardner",
+    "rom": "wardner",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Wild Fang",
+    "rom": "wildfang",
+    "manufactor": "Tecmo",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Wily Tower",
+    "rom": "wilytowr",
+    "manufactor": "Irem",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Wonder Boy",
+    "rom": "wboy",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Wonder Boy III: Monster Lair",
+    "rom": "wb3",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Wonder Boy in Monster Land",
+    "rom": "wbml",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Wonder Momo",
+    "rom": "wndrmomo",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Woodpecker",
+    "rom": "woodpeck",
+    "manufactor": "Amenip",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "WWF Superstars",
+    "rom": "wwfsstar",
+    "manufactor": "Technos Japan",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Wyvern F-0",
+    "rom": "wyvernf0",
+    "manufactor": "Taito",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Xain'd Sleena",
+    "rom": "xsleena",
+    "manufactor": "Technos",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Xevious",
+    "rom": "xevious",
+    "manufactor": "Namco",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Yie Ar Kung-Fu",
+    "rom": "yiear",
+    "manufactor": "Konami",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Zaxxon",
+    "rom": "zaxxon",
+    "manufactor": "Sega",
+    "hiscore": "No",
+    "status": "Playable"
+  },
+  {
+    "name": "Zero Point",
+    "rom": "zeropnt",
+    "manufactor": "Unico",
+    "hiscore": "No",
+    "status": "Playable"
+  }
+]

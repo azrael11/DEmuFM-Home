@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071322">
+  <meta name="description" content="DEmuFM — an independent arcade emulator built with Delphi and FireMonkey. Explore arcade compatibility, updates and Windows downloads.">
+  <title>DEmuFM — The arcade, reimagined</title>
+  <!-- Original, unmodified DEmuFM logo from the owner's existing public website. -->
+  <link rel="icon" href="https://azrael11.github.io/DEmuFM-Home/logo/png/logo-no-background.png" type="image/png">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/polish-v03.css">
+  <link rel="stylesheet" href="assets/game-pages-v04.css">
+  <script defer src="assets/i18n.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <div class="ambient ambient--one" aria-hidden="true"></div><div class="ambient ambient--two" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand brand-official" href="#home" aria-label="DEmuFM home">
+        <img src="https://azrael11.github.io/DEmuFM-Home/logo/png/logo-no-background.png" alt="DEmuFM — official project logo" class="official-logo" width="68" height="76">
+        <span class="brand-caption" aria-hidden="true">DEmuFM<small>ARCADE EMULATOR</small></span>
+      </a>
+      <nav class="nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#home" data-nav="home" data-i18n="navOverview">Overview</a>
+        <a href="#compatibility" data-nav="compatibility" data-i18n="navCompatibility">Compatibility</a>
+        <a href="#systems" data-nav="systems" data-i18n="navSystems">Systems</a>
+        <a href="#updates" data-nav="updates" data-i18n="navUpdates">Updates</a>
+        <a href="#downloads" data-nav="downloads" data-i18n="navDownloads">Downloads</a>
+        <a href="#about" data-nav="about" data-i18n="navAbout">About</a>
+      </nav>
+      <div class="language-switch" role="group" aria-label="Website language"><button type="button" id="lang-en" data-lang="en" class="active" aria-pressed="true">EN</button><span aria-hidden="true">/</span><button type="button" id="lang-el" data-lang="el" aria-pressed="false">ΕΛ</button></div>
+      <button class="nav-toggle" type="button" id="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section data-page="home" id="page-home">
+      <div class="hero container">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="heroKicker">INDEPENDENT ARCADE EMULATION PROJECT</span><span class="eyebrow-square"></span></div>
+          <h1 class="hero-headline"><span data-i18n="heroTitle">THE ARCADE.</span><em data-i18n="heroAccent">REIMAGINED.</em></h1>
+          <p class="hero-lead" data-i18n="heroLead">The machines, the sound, the challenge. A dedicated arcade emulator built with Delphi and FireMonkey — driven by a love of the original hardware.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#compatibility"><span data-i18n="heroExplore">Explore compatibility</span><span aria-hidden="true">↗</span></a><a class="btn btn-ghost" href="#downloads"><span data-i18n="heroDownload">Windows downloads</span><span aria-hidden="true">→</span></a></div>
+          <div class="hero-meta"><span class="live-dot"></span><span data-i18n="heroTech">BUILT WITH DELPHI + FIREMONKEY</span><span class="meta-divider"></span><span data-i18n="heroArcade">ARCADE FOCUS</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Animated reel of classic arcade games">
+          <div class="hero-glow"></div>
+          <div class="showcase-card">
+            <div class="showcase-top"><span><span class="mini-led"></span> ARCADE / SYSTEM 01</span><span class="showcase-brand">DEmuFM</span></div>
+            <div class="game-window showcase-screen" id="showcase-screen">
+              <div id="showcase-slides" class="showcase-slides" aria-hidden="true">
+                <div class="showcase-slide active"><img src="https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/arkanoid.jpg" alt="" decoding="async"><span>Arkanoid</span></div>
+                <div class="showcase-slide"><img src="https://azrael11.github.io/DEmuFM-Home/img/gallery/arcade_bubblebobble.png" alt="" loading="lazy" decoding="async"><span>Bubble Bobble</span></div>
+                <div class="showcase-slide"><img src="https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/pacman.jpg" alt="" loading="lazy" decoding="async"><span>Pac-Man</span></div>
+                <div class="showcase-slide"><img src="https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/outrun.jpg" alt="" loading="lazy" decoding="async"><span>Out Run</span></div>
+                <div class="showcase-slide"><img src="https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/goldnaxe.jpg" alt="" loading="lazy" decoding="async"><span>Golden Axe</span></div>
+                <div class="showcase-slide"><img src="https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/galaga.jpg" alt="" loading="lazy" decoding="async"><span>Galaga</span></div>
+                <div class="showcase-slide"><img src="https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/alexkidd.jpg" alt="" loading="lazy" decoding="async"><span>Alex Kidd</span></div>
+                <div class="showcase-slide"><img src="https://azrael11.github.io/DEmuFM-Home/compatibility/arcade/imgs/sf2.jpg" alt="" loading="lazy" decoding="async"><span>Street Fighter II</span></div>
+              </div>
+              <video id="showcase-video" class="showcase-video" autoplay muted loop playsinline preload="metadata" hidden aria-label="Arcade gameplay showcase"></video>
+              <div class="scanlines" aria-hidden="true"></div><div class="showcase-corner" aria-hidden="true">GALLERY <span class="live-dot"></span></div>
+              <div class="showcase-progress" aria-hidden="true"><span id="showcase-progress-bar"></span></div>
+            </div>
+            <div class="showcase-bottom"><div><strong>DEmuFM / ARCADE</strong><small data-i18n="showcaseCaption">THE ORIGINAL EXPERIENCE</small></div><div class="showcase-controls"><button type="button" id="showcase-prev" aria-label="Previous arcade game">‹</button><button type="button" id="showcase-next" aria-label="Next arcade game">›</button></div></div>
+          </div>
+          <div class="float-stamp"><span>01</span><small>ARCADE<br>HARDWARE</small></div>
+          <div class="orbit orbit--one"></div><div class="orbit orbit--two"></div>
+        </div>
+      </div>
+      <div class="container home-status-strip">
+        <div><span class="strip-icon">◇</span><strong id="home-record-count">400</strong><small data-i18n="homeStatRecords">Arcade entries in legacy catalogue</small></div>
+        <div><a class="strip-icon strip-icon-link" href="#arcade" aria-label="Arcade system page">↗</a><strong>01</strong><small data-i18n="homeStatSystem">System currently featured: Arcade</small></div>
+        <div><span class="strip-icon">⌘</span><strong>Delphi</strong><small data-i18n="homeStatTech">Built with FireMonkey</small></div>
+        <div class="strip-cta"><span data-i18n="homeStatBrowse">Explore the archive</span><a href="#compatibility" aria-label="Open compatibility explorer">↗</a></div>
+      </div>
+      <section class="section container feature-section">
+        <div class="section-header"><div><div class="eyebrow" data-i18n="homeDiscoverKicker">/ 01 — EXPLORE</div><h2><span data-i18n="homeDiscoverTitle">One system.</span><br><span class="muted-heading" data-i18n="homeDiscoverAccent">Endless memories.</span></h2></div><p data-i18n="homeDiscoverText">One focus for now: classic arcade games, their original hardware and the ongoing work of getting the details right.</p></div>
+        <div class="feature-grid">
+          <a class="feature-card feature-card--large" href="#compatibility"><div class="card-no" data-i18n="cardOneKicker">01 / THE ARCHIVE</div><div class="feature-art feature-art--arcade" aria-hidden="true"><span class="pixel-dot"></span><span class="vector-grid"></span><span class="feature-glyph">A</span></div><div class="feature-bottom"><div><small data-i18n="cardOneTag">COMPATIBILITY EXPLORER</small><h3 data-i18n="cardOneTitle">Arcade collection</h3><p data-i18n="cardOneBody">Search, filter and inspect historical test results.</p></div><span class="card-arrow">↗</span></div></a>
+          <a class="feature-card" href="#downloads"><div class="card-no" data-i18n="cardTwoKicker">02 / WINDOWS BUILDS</div><div class="feature-art feature-art--console" aria-hidden="true"><div class="download-symbol">↓</div></div><div class="feature-bottom"><div><small data-i18n="cardTwoTag">DOWNLOAD CENTER</small><h3 data-i18n="cardTwoTitle">Windows first</h3><p data-i18n="cardTwoBody">Find verified arcade builds when they are released.</p></div><span class="card-arrow">↗</span></div></a>
+          <a class="feature-card" href="#about"><div class="card-no" data-i18n="cardThreeKicker">03 / ENGINEERING</div><div class="feature-art feature-art--chip" aria-hidden="true"><div class="cpu-chip"><span>D</span><small>FMX 01</small></div></div><div class="feature-bottom"><div><small data-i18n="cardThreeTag">THE TECHNOLOGY</small><h3 data-i18n="cardThreeTitle">Built from curiosity</h3><p data-i18n="cardThreeBody">Delphi, SDL and the craft of emulation.</p></div><span class="card-arrow">↗</span></div></a>
+        </div>
+      </section>
+      <section class="container manifesto"><span class="manifesto-star">✳</span><div><small data-i18n="philosophyKicker">THE PHILOSOPHY</small><h2><span data-i18n="philosophyTitle">Preserve the feeling.</span><br><em data-i18n="philosophyAccent">Understand the machine.</em></h2></div><a href="#about"><span data-i18n="philosophyLink">Our approach</span><span>→</span></a></section>
+      <section class="section container home-preview"><div class="section-header"><div><div class="eyebrow" data-i18n="previewKicker">/ 02 — DOCUMENTATION</div><h2><span data-i18n="previewTitle">Know before</span><br><span class="muted-heading" data-i18n="previewAccent">you press start.</span></h2></div><p data-i18n="previewBody">All catalogue titles are playable. Explore the games and their artwork; tested games deliver the expected 60 FPS.</p></div><div id="home-game-preview" class="preview-grid"></div><div class="center-action"><a class="btn btn-outline" href="#compatibility"><span data-i18n="previewLink">Browse all arcade records</span><span>↗</span></a></div></section>
+    </section>
+
+    <section data-page="compatibility" id="page-compatibility" hidden>
+      <div class="inner-hero container"><a class="subpage-back" href="#home"><span aria-hidden="true">←</span> <span data-i18n="backOverview">Back to overview</span></a><div class="eyebrow" data-i18n="compatKicker">/ 01 — GAME DATABASE</div><h1><span data-i18n="compatTitle">Compatibility</span> <em data-i18n="compatAccent">Explorer.</em></h1><p data-i18n="compatIntro">Explore the complete arcade collection. All listed games are playable; tested games run at the expected 60 FPS.</p><div class="breadcrumb">DEmuFM <span>/</span> ARCADE <span>/</span> COMPATIBILITY</div></div>
+      <div class="container explorer" id="explorer">
+        <div class="explorer-toolbar"><div class="search-wrap"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="game-search" type="search" placeholder="Search game, ROM or manufacturer..." data-i18n-placeholder="searchPlaceholder" aria-label="Search games" autocomplete="off"><kbd>/</kbd></div><div class="toolbar-right"><span class="dataset-indicator" id="dataset-indicator">Loading archive…</span><button type="button" id="clear-filters" class="text-button" data-i18n="clearFilters">Clear filters</button></div></div>
+        <div class="explorer-controls"><div class="filter-group" role="group" aria-label="Game status"><button type="button" class="filter-chip active" data-filter="all"><span data-i18n="filterAll">All</span> <span id="count-all">—</span></button><button type="button" class="filter-chip" data-filter="playable"><span data-i18n="statusPlayable">Playable</span> <span id="count-playable">—</span></button></div><div class="sort-group"><label for="maker-filter" data-i18n="makerLabel">Maker</label><select id="maker-filter"><option value="all" data-i18n="allMakers">All manufacturers</option></select><label class="visually-hidden" for="game-sort" data-i18n="sortLabel">Sort by</label><select id="game-sort"><option value="name" data-i18n="sortAZ">Name: A–Z</option><option value="name-desc" data-i18n="sortZA">Name: Z–A</option><option value="manufacturer" data-i18n="sortMaker">Manufacturer</option></select><button id="view-grid" type="button" class="view-button active" aria-label="Grid view" title="Grid view">▦</button><button id="view-list" type="button" class="view-button" aria-label="List view" title="List view">☷</button></div></div>
+        <div class="results-line"><span id="results-count" data-i18n="loadingRecords">Preparing records…</span><span data-i18n="legacyDataSource">400-game DEmuFM arcade collection</span></div>
+        <div id="game-grid" class="game-grid" aria-live="polite"></div>
+        <div id="empty-state" class="empty-state" hidden><span>◇</span><h3 data-i18n="emptyTitle">No games found</h3><p data-i18n="emptyBody">Try a different search term or clear your filters.</p><button type="button" class="btn btn-outline" id="empty-reset" data-i18n="emptyReset">Reset filters</button></div>
+        <div class="load-actions" id="load-actions"><button type="button" id="load-more" class="btn btn-outline" data-i18n="loadMore">Load more games ↓</button><span id="pagination-label"></span></div>
+        <div class="data-disclaimer"><span>i</span><div><strong data-i18n="disclaimerTitle">Playable arcade collection.</strong> <span data-i18n="disclaimerBody">Original test notes may not reflect the latest emulator fixes. “Playable” means the older entry said everything was OK.</span></div></div>
+      </div>
+    </section>
+
+
+    <section data-page="game" id="page-game" hidden>
+      <div class="container game-detail-wrap">
+        <div id="game-page-content" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section data-page="systems" id="page-systems" hidden><div class="inner-hero container"><a class="subpage-back" href="#home"><span aria-hidden="true">←</span> <span data-i18n="backOverview">Back to overview</span></a><div class="eyebrow" data-i18n="systemKicker">/ 02 — SUPPORTED SYSTEM</div><h1><span data-i18n="systemTitle">The arcade.</span><br><em data-i18n="systemAccent">Our starting point.</em></h1><p data-i18n="systemIntro">The Arcade collection is the current focus. Every listed title is playable, and tested games achieve the expected 60 FPS.</p></div><div class="container system-grid" id="system-grid"></div><div class="container system-editorial"><div class="eyebrow" data-i18n="systemEditorialKicker">/ ONE FOCUS, MANY STORIES</div><h2 data-i18n="systemEditorialTitle">Inside the arcade.</h2><p data-i18n="systemEditorialBody">Discover the arcade system, its authentic details and the games documented in our historical archive.</p><a href="#arcade" class="btn btn-outline"><span data-i18n="systemEditorialLink">Explore the Arcade page</span> ↗</a></div></section>
+
+
+    <section data-page="arcade" id="page-arcade" hidden>
+      <div class="inner-hero container arcade-inner-hero">
+        <a class="subpage-back" href="#systems"><span aria-hidden="true">←</span> <span data-i18n="backSystems">Back to systems</span></a>
+        <div class="eyebrow" data-i18n="arcadeKicker">/ THE SYSTEM — 01</div>
+        <div class="arcade-hero-layout"><div>
+          <h1><span data-i18n="arcadeTitle">Born in the</span><br><em data-i18n="arcadeAccent">arcade.</em></h1>
+          <p data-i18n="arcadeIntro">One machine at a time. DEmuFM explores the graphics, sound, controls and timing of classic coin-op games.</p>
+          <div class="arcade-hero-actions"><a href="#compatibility" class="btn btn-primary"><span data-i18n="arcadeBrowse">Explore arcade games</span><span aria-hidden="true">↗</span></a><a href="#downloads" class="btn btn-outline"><span data-i18n="heroDownload">Windows downloads</span> →</a></div>
+        </div><div class="arcade-hero-mark" aria-hidden="true"><span>A</span><small>01 / ARCADE</small></div></div>
+      </div>
+      <div class="container arcade-story">
+        <div class="section-header"><div><div class="eyebrow" data-i18n="arcadeStoryKicker">/ THE EXPERIENCE</div><h2><span data-i18n="arcadeStoryTitle">The original feeling.</span><br><span class="muted-heading" data-i18n="arcadeStoryAccent">The details behind it.</span></h2></div><p data-i18n="arcadeStoryIntro">Arcade emulation is a collection of small challenges. We document what works and what still needs attention.</p></div>
+        <div class="arcade-story-grid">
+          <article><span class="story-index">01 / VIDEO</span><div class="story-symbol story-symbol--blue" aria-hidden="true">▤</div><h3 data-i18n="arcadeStoryVideo">Graphics and motion</h3><p data-i18n="arcadeStoryVideoText">Scrolling, palettes, sprites and the frame-by-frame details that define each game.</p></article>
+          <article><span class="story-index">02 / SOUND</span><div class="story-symbol story-symbol--red" aria-hidden="true">♫</div><h3 data-i18n="arcadeStorySound">Sounds of the arcade</h3><p data-i18n="arcadeStorySoundText">Music, sound effects and synchronization are part of the original character.</p></article>
+          <article><span class="story-index">03 / CONTROLS</span><div class="story-symbol story-symbol--mint" aria-hidden="true">✣</div><h3 data-i18n="arcadeStoryControls">Hands on the controls</h3><p data-i18n="arcadeStoryControlsText">Responsive inputs and accurate gameplay matter just as much as the picture.</p></article>
+        </div>
+      </div>
+      <div class="container arcade-gallery-block">
+        <div><div class="eyebrow" data-i18n="arcadeGalleryKicker">/ THE GALLERY</div><h2 data-i18n="arcadeGalleryTitle">From the archive.</h2><p data-i18n="arcadeGalleryNote">Images from the original DEmuFM project website. All listed arcade titles are playable.</p></div>
+        <div class="arcade-gallery"><figure><img src="https://azrael11.github.io/DEmuFM-Home/img/gallery/frontend.png" alt="DEmuFM frontend screenshot" loading="lazy"><figcaption>DEmuFM Frontend <small>DELPHI · FMX</small></figcaption></figure><figure><img src="https://azrael11.github.io/DEmuFM-Home/img/gallery/arcade_bubblebobble.png" alt="Bubble Bobble DEmuFM screenshot" loading="lazy"><figcaption>Bubble Bobble <small>TAITO · 1986</small></figcaption></figure></div>
+      </div>
+      <div class="container subpage-next"><span data-i18n="arcadeNextLabel">CONTINUE EXPLORING</span><a href="#compatibility"><strong data-i18n="arcadeNextTitle">Compatibility Explorer</strong><span>↗</span></a></div>
+    </section>
+
+    <section data-page="updates" id="page-updates" hidden><div class="inner-hero container"><a class="subpage-back" href="#home"><span aria-hidden="true">←</span> <span data-i18n="backOverview">Back to overview</span></a><div class="eyebrow" data-i18n="updatesKicker">/ 03 — THE JOURNAL</div><h1><span data-i18n="updatesTitle">Project</span> <em data-i18n="updatesAccent">updates.</em></h1><p data-i18n="updatesIntro">Original development notes with their real dates. New announcements will appear only when they are verified.</p></div><div class="container timeline"><article><div class="timeline-date">20 NOV 2026 <span data-i18n="release006Type">SOURCE RELEASE</span></div><div><h2 data-i18n="release006Title">DEmuFM 0.0.6 — Arcade milestone</h2><p data-i18n="release006Body">Arcade-comp3 work is integrated into the main source branch. The source-only v0.0.6 release is published; Windows binaries are not available for download. Intermittent SDL startup/shutdown crashes remain under investigation.</p></div></article><article><div class="timeline-date">26 NOV 2024 <span data-i18n="archivedNote">ARCHIVED NOTE</span></div><div><h2 data-i18n="update1Title">Moving toward version 0.0.2</h2><p data-i18n="update1Body">An early project note describing progress toward a more stable emulator and a possible first public release in a later version.</p></div></article><article><div class="timeline-date">20 NOV 2024 <span data-i18n="archivedNote">ARCHIVED NOTE</span></div><div><h2 data-i18n="update2Title">Compatibility improvements</h2><p data-i18n="update2Body">More arcade games became playable during development, while others still had startup and gameplay issues.</p></div></article><article><div class="timeline-date">30 OCT 2024 <span data-i18n="archivedNote">ARCHIVED NOTE</span></div><div><h2 data-i18n="update3Title">The initial start</h2><p data-i18n="update3Body">The first archived development entry documented a project still early in its debugging journey.</p></div></article><p class="journal-note" data-i18n="updateFooter">Development notes are not release announcements.</p><div class="journal-cta"><span data-i18n="updateNext">See the arcade in detail.</span><a href="#arcade" class="btn btn-outline"><span data-i18n="updateNextLink">Explore Arcade</span> ↗</a></div></div></section>
+
+    <section data-page="downloads" id="page-downloads" hidden>
+      <div class="inner-hero container"><a class="subpage-back" href="#home"><span aria-hidden="true">←</span> <span data-i18n="backOverview">Back to overview</span></a><div class="eyebrow" data-i18n="downloadsKicker">/ 04 — DOWNLOAD CENTER</div><h1><span data-i18n="downloadsTitle">Download</span> <em data-i18n="downloadsAccent">DEmuFM.</em></h1><p data-i18n="downloadsIntro">Windows builds of the DEmuFM Arcade emulator. Other operating systems are in development and are not available for download yet.</p></div>
+      <div class="container downloads-content">
+        <div class="download-os-grid">
+          <div class="os-card os-card--available"><span class="os-symbol">⊞</span><div><small data-i18n="osAvailable">SUPPORTED DOWNLOAD PLATFORM</small><h2>Windows</h2><p data-i18n="osWindowsDesc">Arcade builds — releases appear below when published.</p></div><span class="os-status os-status--active" data-i18n="osSelected">SELECTED</span></div>
+          <div class="os-card os-card--disabled" aria-disabled="true"><span class="os-symbol">⌘</span><div><small data-i18n="osFuture">UNDER DEVELOPMENT</small><h2>macOS</h2><p data-i18n="osComing">Coming later.</p></div><span class="os-status" data-i18n="osSoon">COMING SOON</span></div>
+          <div class="os-card os-card--disabled" aria-disabled="true"><span class="os-symbol">⌘</span><div><small data-i18n="osFuture">UNDER DEVELOPMENT</small><h2>Linux</h2><p data-i18n="osComing">Coming later.</p></div><span class="os-status" data-i18n="osSoon">COMING SOON</span></div>
+        </div>
+        <div class="downloads-heading"><div><div class="eyebrow" data-i18n="releaseKicker">WINDOWS / ARCADE</div><h2 data-i18n="releaseTitle">Available releases</h2><p data-i18n="releaseDescription">Release details are synchronized from GitHub by the project owner. Only approved Windows files are offered here.</p></div><span id="release-source" class="dataset-indicator" aria-live="polite" data-i18n="releaseChecking">Checking releases…</span></div>
+        <div id="release-list" class="release-list" aria-live="polite"><div class="release-empty" data-i18n="releaseLoading">Loading Windows release information…</div></div>
+        <div class="data-disclaimer download-disclaimer"><span>i</span><div><strong data-i18n="releaseNoteTitle">No premature download links.</strong> <span data-i18n="releaseNoteBody">A Windows package is downloadable only after an actual build is made available. The private source repository is not linked or exposed through this page.</span></div></div>
+      </div>
+    </section>
+
+    <section data-page="about" id="page-about" hidden><div class="inner-hero container"><a class="subpage-back" href="#home"><span aria-hidden="true">←</span> <span data-i18n="backOverview">Back to overview</span></a><div class="eyebrow" data-i18n="aboutKicker">/ 05 — ABOUT DEMUFM</div><h1><span data-i18n="aboutTitle">Built to</span> <em data-i18n="aboutAccent">understand.</em></h1><p data-i18n="aboutIntro">DEmuFM is an independent arcade emulation project developed with Delphi and FireMonkey.</p></div><div class="container about-layout"><div class="about-highlight"><img class="about-official-logo" src="https://azrael11.github.io/DEmuFM-Home/logo/png/logo-no-background.png" alt="Official DEmuFM logo"><small data-i18n="aboutHighlight">AN INDEPENDENT<br>ARCADE EMULATION JOURNEY</small></div><div class="about-text"><h2 data-i18n="aboutHeading">Emulation is more than running a game.</h2><p data-i18n="aboutParagraph1">It's about understanding the systems behind it: CPUs, memory maps, graphics, audio chips, timing and the tiny details that make classic software feel authentic.</p><p data-i18n="aboutParagraph2">DEmuFM is developed with Delphi and FireMonkey, alongside SDL. For now, its public-facing work is focused exclusively on Arcade emulation.</p><div class="tech-tags"><span>Delphi</span><span>FireMonkey</span><span>SDL</span><span>Arcade</span><span>Retro hardware</span></div><a class="btn btn-outline" href="#compatibility"><span data-i18n="aboutButton">Explore the arcade archive</span> ↗</a></div></div><div class="container about-outro"><span data-i18n="aboutOutro">ONE PROJECT. THE ARCADE EXPERIENCE.</span><a href="#arcade" data-i18n="aboutOutroLink">Explore the Arcade project →</a></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-top"><div><a class="brand brand-official footer-brand" href="#home"><img class="official-logo" src="https://azrael11.github.io/DEmuFM-Home/logo/png/logo-no-background.png" alt="Official DEmuFM logo" width="68" height="76"><span class="brand-caption" aria-hidden="true">DEmuFM<small>ARCADE EMULATOR</small></span></a><p data-i18n="footerLead">A personal journey into the arcade machines that made gaming history.</p></div><div><small data-i18n="footerExplore">EXPLORE</small><a href="#compatibility" data-i18n="navCompatibility">Compatibility</a><a href="#systems" data-i18n="navSystems">Systems</a><a href="#updates" data-i18n="navUpdates">Updates</a></div><div><small data-i18n="footerProject">PROJECT</small><a href="#downloads" data-i18n="navDownloads">Downloads</a><a href="#about" data-i18n="navAbout">About</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> DEmuFM. <span data-i18n="footerCopyright">Made for the love of the game.</span></span><span data-i18n="footerPrivate">PUBLIC WEBSITE · SOURCE RELEASE 0.0.6</span></div></footer>
+
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top"><span aria-hidden="true">↑</span><span class="back-to-top-text" data-i18n="backToTop">Top</span></button>
+  <dialog id="game-dialog" class="game-dialog" aria-label="Arcade game details"><button class="dialog-close" type="button" id="dialog-close" aria-label="Close game details">×</button><div id="dialog-content"></div></dialog><div id="toast" role="status" class="toast" aria-live="polite"></div>
+</body>
+</html>
