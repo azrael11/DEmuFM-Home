@@ -10,7 +10,7 @@
   const RELEASE_API = 'https://api.github.com/repos/azrael11/DEmuFM/releases?per_page=20';
   const PAGE_SIZE = 24;
   // 1942 GL is an unfinished OpenGL experiment: never display it as supported.
-  const EXCLUDED_ROMS = new Set(['1942', '1942gl', '1942gr']);
+  const EXCLUDED_ROMS = new Set(['1942', '1942gl']);
   const $ = (id) => document.getElementById(id);
   const el = (tag, classes, text) => {
     const node = document.createElement(tag);
