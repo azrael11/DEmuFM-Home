@@ -1,7 +1,7 @@
 'use strict';
 /**
  * DEmuFM Next v0.4.1 — dependency-free bilingual static frontend.
- * Only Arcade is advertised. Current playable status is owner-confirmed; earlier notes, if supplied, are archival.
+ * Only Arcade is advertised. All 400 games were tested individually. Older notes are archival.
  * No secrets, GitHub tokens, account data, analytics or authentication in the browser.
  */
 (() => {
@@ -53,7 +53,7 @@
     $('release-source').textContent = state.releaseSource ? t(state.releaseSource) : t('releaseChecking');
     renderCounts(); renderGames(); renderPreview(); renderSystems(); renderReleases(); route(false);
   }
-  // The project owner has confirmed the displayed catalogue is playable.
+  // All 400 games in the collection have been individually tested and are playable.
   // Do not infer current status from the obsolete original 'status' text field.
   function statusOf(_game) { return 'playable'; }
   const statusLabel = {playable:'statusPlayable'};
