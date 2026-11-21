@@ -15,7 +15,7 @@ DEmuFM is a Delphi / FireMonkey arcade emulator with a curated game library, con
 - **Video, audio and stability:** targeted driver improvements, sprite fixes and detailed SDL diagnostics.
 - **Known issue:** intermittent SDL2 startup/shutdown access violation remains under investigation.
 
-The experimental **1942 GR** OpenGL implementation is not part of the 400 supported games.
+The experimental **1942 GL** OpenGL implementation is not part of the 400 supported games.
 
 The original arcade gallery and game information remain available on the website. The v0.0.6 emulator release contains source code; no Windows executable is advertised as downloadable.
 
