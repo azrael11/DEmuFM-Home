@@ -1,4 +1,4 @@
-name: Deploy DEmuFM Next static website
+name: Publish DEmuFM Next website
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -15,56 +15,67 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-      - name: Prepare DEmuFM Next site (no legacy HTML pages)
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Restore full v0.4.1 website at repository root (one time)
         shell: bash
         run: |
           set -euo pipefail
-          test -f deployment/DEmuFM-Next-Public-0.0.6.tar.xz || { echo "::error::Missing validated production payload"; exit 1; }
-          mkdir -p _publish
-          tar -xJf deployment/DEmuFM-Next-Public-0.0.6.tar.xz -C _publish
-          test -f _publish/index.html
-          test -f _publish/assets/app.js
-          test -f _publish/data/arcade.json
-          python3 - <<'PY'
-          import json
-          with open('_publish/data/arcade.json', encoding='utf-8') as f:
-              games=json.load(f)
-          assert len(games)==400 and len(set(g['rom'] for g in games))==400
-          assert not any(g['rom'] in ('1942','1942gr') for g in games)
-          PY
-          # Keep the owner's genuine assets while retiring all OLD HTML routes.
-          cp -a logo _publish/
-          cp -a img _publish/
-          mkdir -p _publish/compatibility/arcade
-          cp -a compatibility/arcade/imgs _publish/compatibility/arcade/
-          # Website images can be added in parallel to arcade-nosamples.
-          if [ -d assets/game-media ]; then
-            mkdir -p _publish/assets/game-media
-            cp -a assets/game-media/. _publish/assets/game-media/
+          if [ ! -f index.html ]; then
+            test -f deployment/DEmuFM-Next-Public-0.0.6.tar.xz
+            mkdir -p /tmp/demufm-site
+            tar -xJf deployment/DEmuFM-Next-Public-0.0.6.tar.xz -C /tmp/demufm-site
+            test -f /tmp/demufm-site/index.html
+            test -f /tmp/demufm-site/assets/app.js
+            cp /tmp/demufm-site/index.html .
+            cp -a /tmp/demufm-site/assets .
+            mkdir -p data
+            for name in arcade.json demo.json game-details.json releases.json; do
+              cp "/tmp/demufm-site/data/$name" "data/$name"
+            done
+            touch .nojekyll
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add -f index.html assets .nojekyll data/arcade.json data/demo.json data/game-details.json data/releases.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Restore DEmuFM Next website at site root"
+              git push origin HEAD:main
+            fi
           fi
+      - name: Assemble the public site from canonical root assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf _publish
+          mkdir -p _publish/data _publish/compatibility/arcade
+          test -f index.html
+          test -f assets/app.js
+          test -f data/arcade.json
+          cp index.html _publish/
+          cp -a assets logo img _publish/
+          cp data/arcade.json data/demo.json data/game-details.json data/releases.json _publish/data/
           if [ -f data/game-media.json ]; then
             cp data/game-media.json _publish/data/game-media.json
           fi
+          cp -a compatibility/arcade/imgs _publish/compatibility/arcade/
           touch _publish/.nojekyll
-          echo "Deploying DEmuFM Next. Legacy HTML pages are not part of _publish."
-      - name: Upload production site
-        uses: actions/upload-pages-artifact@v3
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          games = json.loads(Path('_publish/data/arcade.json').read_text(encoding='utf-8'))
+          assert len(games) == 400
+          assert len({g['rom'] for g in games}) == 400
+          assert not any(g['rom'] in ('1942', '1942gr') for g in games)
+          for resource in ('index.html', 'assets/app.js', 'assets/i18n.js', 'assets/styles.css'):
+              assert Path('_publish', resource).exists(), resource
+          print('Validated real DEmuFM Next website with 400 games.')
+          PY
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: ./_publish
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy GitHub Pages
+      - name: Deploy site
         id: deployment
         uses: actions/deploy-pages@v4
