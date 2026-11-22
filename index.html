@@ -87,6 +87,20 @@
       </section>
       <section class="container manifesto"><span class="manifesto-star">✳</span><div><small data-i18n="philosophyKicker">THE PHILOSOPHY</small><h2><span data-i18n="philosophyTitle">Preserve the feeling.</span><br><em data-i18n="philosophyAccent">Understand the machine.</em></h2></div><a href="#about"><span data-i18n="philosophyLink">Our approach</span><span>→</span></a></section>
       <section class="section container home-preview"><div class="section-header"><div><div class="eyebrow" data-i18n="previewKicker">/ 02 — DOCUMENTATION</div><h2><span data-i18n="previewTitle">Know before</span><br><span class="muted-heading" data-i18n="previewAccent">you press start.</span></h2></div><p data-i18n="previewBody">All 400 games have been individually tested and are playable at their correct frame rates.</p></div><div id="home-game-preview" class="preview-grid"></div><div class="center-action"><a class="btn btn-outline" href="#compatibility"><span data-i18n="previewLink">Browse all arcade records</span><span>↗</span></a></div></section>
+      <!-- Staging-only: upstream arcade candidates are not counted as playable. -->
+      <section class="section container incoming-section" id="home-incoming" hidden>
+        <div class="section-header">
+          <div>
+            <div class="eyebrow" data-i18n="incomingKicker">/ UPSTREAM REVIEW</div>
+            <h2 data-i18n="incomingTitle">Incoming arcade drivers.</h2>
+          </div>
+          <p data-i18n="incomingBody">DSP integration candidates, not yet verified in DEmuFM. The 400 tested games remain unchanged.</p>
+        </div>
+        <details class="incoming-disclosure">
+          <summary data-i18n="incomingSummary">View arcade candidates under evaluation</summary>
+          <div class="incoming-grid" id="incoming-arcade-list"></div>
+        </details>
+      </section>
     </section>
 
     <section data-page="compatibility" id="page-compatibility" hidden>
