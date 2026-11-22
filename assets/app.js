@@ -18,7 +18,7 @@
     if (text !== undefined) node.textContent = String(text ?? '');
     return node;
   };
-  const state = {lang:'en', games:[], source:'', search:'', status:'all', maker:'all', sort:'name', layout:'grid', limit:PAGE_SIZE, releases:[], releaseSource:'', releaseState:'loading', media:{}, gameDetails:{}};
+  const state = {lang:'en', games:[], source:'', search:'', status:'all', maker:'all', sort:'name', layout:'grid', limit:PAGE_SIZE, releases:[], releaseSource:'', releaseState:'loading', media:{}, gameDetails:{}, incoming:[]};
   const pages = [...document.querySelectorAll('[data-page]')];
   const navLinks = [...document.querySelectorAll('[data-nav]')];
   const staticEnglish = {};
@@ -51,7 +51,7 @@
     $('game-search').setAttribute('aria-label',t('searchPlaceholder'));
     $('dataset-indicator').textContent = state.source ? t('datasetIndicator',{source:t(state.source),count:state.games.length}) : t('loadingRecords');
     $('release-source').textContent = state.releaseSource ? t(state.releaseSource) : t('releaseChecking');
-    renderCounts(); renderGames(); renderPreview(); renderSystems(); renderReleases(); route(false);
+    renderCounts(); renderGames(); renderPreview(); renderIncoming(); renderSystems(); renderReleases(); route(false);
   }
   // All 400 games in the collection have been individually tested and are playable.
   // Do not infer current status from the obsolete original 'status' text field.
@@ -158,6 +158,34 @@
     const picks=['pacman','arkanoid','outrun','goldnaxe'];const games=picks.map(rom=>state.games.find(g=>g.rom===rom)).filter(Boolean);
     if(games.length<4)games.push(...state.games.filter(g=>!games.includes(g)).slice(0,4-games.length));
     $('home-game-preview').replaceChildren(...games.map(g=>makeCard(g,true)));
+  }
+  // Only the homepage previews pending DSP arcade drivers. These entries
+  // must never enter state.games or inherit the verified Playable badge.
+  function renderIncoming() {
+    const root=$('incoming-arcade-list'),section=$('home-incoming');
+    if (!root || !section) return;
+    section.hidden=!state.incoming.length;
+    const cards=state.incoming.map(game=>{
+      const card=el('article','incoming-card'),system=el('small','incoming-system',game.system);
+      const title=el('h3','',game.name),rom=el('span','incoming-rom',`ROM / ${game.rom}`);
+      const status=el('small','incoming-status',t('incomingPending'));
+      card.append(system,title,rom,status);return card;
+    });
+    root.replaceChildren(...cards);
+  }
+  async function loadIncoming() {
+    try {
+      const manifest=await fetchJson('data/dsp-arcade-candidates.json',3000);
+      if (manifest.scope!=='arcade-only' || !Array.isArray(manifest.games)) return;
+      state.incoming=manifest.games.filter(game=>
+        game.integrationStatus==='pending' &&
+        (game.system==='Arcade' || game.system==='Neo Geo') &&
+        validGame(game) && !EXCLUDED_ROMS.has(game.rom.toLowerCase())
+      );
+      renderIncoming();
+    } catch(error) {
+      console.info('Upstream arcade candidate list not available:',error.message);
+    }
   }
   function resetFilters() {
     Object.assign(state,{search:'',status:'all',maker:'all',sort:'name',limit:PAGE_SIZE});
@@ -396,6 +424,6 @@
     $('game-dialog').addEventListener('click',e=>{if(e.target===$('game-dialog'))$('game-dialog').close();});
     document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName)) {e.preventDefault();location.hash='#compatibility';$('game-search').focus();}});
   }
-  function init() {$('year').textContent=new Date().getFullYear();bindEvents();applyLanguage('en');setupShowcase();loadGames();loadGameMedia();loadGameDetails();loadReleases();}
+  function init() {$('year').textContent=new Date().getFullYear();bindEvents();applyLanguage('en');setupShowcase();loadGames();loadIncoming();loadGameMedia();loadGameDetails();loadReleases();}
   document.addEventListener('DOMContentLoaded',init);
 })();
