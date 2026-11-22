@@ -1,0 +1,146 @@
+{
+  "source": "leniad/dsp-emulator",
+  "release": "DSP 0.24WIP4",
+  "releaseDate": "2026-11-21",
+  "scope": "arcade-only",
+  "playableCountUnchanged": 400,
+  "description": "Arcade drivers present in upstream DSP and absent by ROM key from the DEmuFM merge baseline. These are integration candidates, not verified or playable DEmuFM games. Keep outside the approved 400-game compatibility catalogue until tested.",
+  "games": [
+    {
+      "rom": "gauntlet",
+      "name": "Gauntlet",
+      "year": "1985",
+      "manufacturer": "Atari",
+      "system": "Arcade",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "bayroute",
+      "name": "Bay Route",
+      "year": "1989",
+      "manufacturer": "Sunsoft/Sega",
+      "system": "Arcade",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "sonicbom",
+      "name": "Sonic Boom",
+      "year": "1987",
+      "manufacturer": "Sega",
+      "system": "Arcade",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "timescan",
+      "name": "Time Scanner",
+      "year": "1987",
+      "manufacturer": "Sega",
+      "system": "Arcade",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "willow",
+      "name": "Willow",
+      "year": "1989",
+      "manufacturer": "Capcom",
+      "system": "Arcade",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "1941",
+      "name": "1941: Counter Attack",
+      "year": "1990",
+      "manufacturer": "Capcom",
+      "system": "Arcade",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "nemo",
+      "name": "Nemo",
+      "year": "1990",
+      "manufacturer": "Capcom",
+      "system": "Arcade",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "tokio",
+      "name": "Tokio",
+      "year": "1986",
+      "manufacturer": "Taito",
+      "system": "Arcade",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "sboblbobl",
+      "name": "Super Bobble Bobble",
+      "year": "1986",
+      "manufacturer": "",
+      "system": "Arcade",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "mars",
+      "name": "Mars",
+      "year": "1981",
+      "manufacturer": "Artic",
+      "system": "Arcade",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "devilfsh",
+      "name": "Devil Fish",
+      "year": "1982",
+      "manufacturer": "Artic",
+      "system": "Arcade",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "drmicro",
+      "name": "Dr. Micro",
+      "year": "1983",
+      "manufacturer": "Sanritsu",
+      "system": "Arcade",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "mslug",
+      "name": "Metal Slug - Super Vehicle-001",
+      "year": "1996",
+      "manufacturer": "SNK",
+      "system": "Neo Geo",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "mslug2",
+      "name": "Metal Slug 2 - Super Vehicle-001/II",
+      "year": "1998",
+      "manufacturer": "SNK",
+      "system": "Neo Geo",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "kof94",
+      "name": "King of Fighters 94",
+      "year": "1994",
+      "manufacturer": "SNK",
+      "system": "Neo Geo",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "viewpoin",
+      "name": "Viewpoint",
+      "year": "1992",
+      "manufacturer": "Sammy",
+      "system": "Neo Geo",
+      "integrationStatus": "pending"
+    },
+    {
+      "rom": "mslugx",
+      "name": "Metal Slug X - Super Vehicle-001",
+      "year": "1999",
+      "manufacturer": "SNK",
+      "system": "Neo Geo",
+      "integrationStatus": "pending"
+    }
+  ]
+}
