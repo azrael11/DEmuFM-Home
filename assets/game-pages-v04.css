@@ -61,3 +61,15 @@
 .detail-description-panel h2 {font:800 37px var(--display);margin:13px 0}
 .detail-description-panel p {white-space:pre-line;color:#a8bfca;font:14px/1.95 var(--body);max-width:880px}
 @media(max-width:760px){.detail-description-panel{padding:23px}}
+
+/* DSP integration preview: homepage only, never a verified/playable badge. */
+.incoming-section {border-top:1px solid #2d495a}
+.incoming-disclosure {border:1px solid #38566b;background:#0c1c2b;border-radius:10px;padding:17px 21px}
+.incoming-disclosure summary {cursor:pointer;color:#b6d4da;font:700 14px var(--display);list-style-position:inside}
+.incoming-disclosure summary:focus-visible {outline:2px solid #a8d2d5;outline-offset:5px}
+.incoming-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:13px;padding-top:19px}
+.incoming-card {background:#112638;border:1px solid #314f66;border-radius:9px;padding:18px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.incoming-card h3 {margin:0;font:700 19px/1.2 var(--display);overflow-wrap:anywhere}
+.incoming-system,.incoming-status,.incoming-rom {font:600 10px/1.6 var(--mono);letter-spacing:.06em;color:#9ab6c3}
+.incoming-status {color:#dfa977}
+@media(max-width:520px){.incoming-grid{grid-template-columns:1fr}.incoming-card{padding:14px}}
